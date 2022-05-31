@@ -119,7 +119,7 @@ fbq('track', 'PageView');
         $.ajax({
             url: "/clubSignUp/addClubWestUser", // Url to which the request is send
             type: "POST", // Type of request to be send, called as method
-            data: "club_email=" + emailAddress+'&YII_CSRF_TOKEN=MjBoaDIxaGc0dnl5elc3ck5ldDY5eXBkU1BWRElVVU5nKbwFCvbM5r2QWpwArzXnVJ9uJOSOe9j3LyF_dz1pGA==', // Data sent to server, a set of key/value pairs (i.e. form fields and values)
+            data: "club_email=" + emailAddress+'&YII_CSRF_TOKEN=Z1ZJTUROZ3RKU242NmVvb1d3bjhiXzcyaGo5SzdMcHL4lYaAHudnnP9lDfJj8bmMjV1eUeVRa5sUyLZDu6a6hQ==', // Data sent to server, a set of key/value pairs (i.e. form fields and values)
             success: function (data)   // A function to be called if request succeeds
             {
                 $("#clubSubscribe").attr("disabled", false);
@@ -171,7 +171,7 @@ fbq('track', 'PageView');
         $.ajax({
             url: "/clubSignUp/addClubWestUser", // Url to which the request is send
             type: "POST", // Type of request to be send, called as method
-            data: "club_email=" + emailAddress+'&YII_CSRF_TOKEN=MjBoaDIxaGc0dnl5elc3ck5ldDY5eXBkU1BWRElVVU5nKbwFCvbM5r2QWpwArzXnVJ9uJOSOe9j3LyF_dz1pGA==', // Data sent to server, a set of key/value pairs (i.e. form fields and values)
+            data: "club_email=" + emailAddress+'&YII_CSRF_TOKEN=Z1ZJTUROZ3RKU242NmVvb1d3bjhiXzcyaGo5SzdMcHL4lYaAHudnnP9lDfJj8bmMjV1eUeVRa5sUyLZDu6a6hQ==', // Data sent to server, a set of key/value pairs (i.e. form fields and values)
             success: function (data)   // A function to be called if request succeeds
             {
                
@@ -214,7 +214,7 @@ function redirectPage(url, tab_id) {
         $.ajax({
             type: "POST",
             url: "/site/getArrival",
-            data: 'YII_CSRF_TOKEN=MjBoaDIxaGc0dnl5elc3ck5ldDY5eXBkU1BWRElVVU5nKbwFCvbM5r2QWpwArzXnVJ9uJOSOe9j3LyF_dz1pGA==',
+            data: 'YII_CSRF_TOKEN=Z1ZJTUROZ3RKU242NmVvb1d3bjhiXzcyaGo5SzdMcHL4lYaAHudnnP9lDfJj8bmMjV1eUeVRa5sUyLZDu6a6hQ==',
             success: function (data) {
                 //var result = $.parseJSON(data);
 
@@ -228,7 +228,7 @@ function redirectPage(url, tab_id) {
         $.ajax({
             type: "POST",
             url: "/site/getDeparture",
-            data: 'YII_CSRF_TOKEN=MjBoaDIxaGc0dnl5elc3ck5ldDY5eXBkU1BWRElVVU5nKbwFCvbM5r2QWpwArzXnVJ9uJOSOe9j3LyF_dz1pGA==',
+            data: 'YII_CSRF_TOKEN=Z1ZJTUROZ3RKU242NmVvb1d3bjhiXzcyaGo5SzdMcHL4lYaAHudnnP9lDfJj8bmMjV1eUeVRa5sUyLZDu6a6hQ==',
             success: function (data) {
                 //var result = $.parseJSON(data);
                 $('#departure_data').html(data);
@@ -811,24 +811,6 @@ Journey Planner </a></li>
 <tbody id="departure_data">
 <tr>
 <td class="airline"> Ryanair </td>
-<td class="flight">FR2452</td>
-<td class="time">17:55</td>
-<td class="origin">FARO </td>
-
-<td class="status">Departed 1821<strong> </strong></td>
-
-</tr>
-<tr>
-<td class="airline"> Ryanair </td>
-<td class="flight">FR6674</td>
-<td class="time">18:15</td>
-<td class="origin">LIVERPOOL </td>
-
-<td class="status">Departed 1825<strong> </strong></td>
-
-</tr>
-<tr>
-<td class="airline"> Ryanair </td>
 <td class="flight">FR8143</td>
 <td class="time">08:00</td>
 <td class="origin">LONDON LUTON </td>
@@ -865,7 +847,7 @@ Journey Planner </a></li>
 </tr>
 <tr>
 <td class="airline"> Ryanair </td>
-<td class="flight">FR6674</td>
+ <td class="flight">FR6674</td>
 <td class="time">15:00</td>
 <td class="origin">LIVERPOOL </td>
 
@@ -888,7 +870,7 @@ Journey Planner </a></li>
 <td class="origin">EAST MIDLANDS </td>
 
 <td class="status"><strong> </strong></td>
- 
+
 </tr>
 <tr>
 <td class="airline"> Ryanair </td>
@@ -906,7 +888,7 @@ Journey Planner </a></li>
 <td class="origin">BARCELONA GIRONA </td>
 
 <td class="status"><strong> </strong></td>
-
+ 
 </tr>
 </tbody>
 </table>
@@ -997,7 +979,7 @@ Journey Planner </a></li>
 <div class="box-cell">
 <h4>Featured Destination</h4>
 <h2>Edinburgh</h2>
-<p>Fly to beautiful Edinburgh twice weekly from September with Ryanair</p>
+ <p>Fly to beautiful Edinburgh twice weekly from September with Ryanair</p>
 <a data-toggle="modal" data-target="#myModal-info13" class="btn-more">More Information</a>
 </div>
 </div>
@@ -1033,7 +1015,7 @@ Journey Planner </a></li>
 </div>
 <div class="modal-body">
 <figure>
- <img src="/uploads/content_pages_images/13-edinburg.jpg" class="img-responsive" alt="Image">
+<img src="/uploads/content_pages_images/13-edinburg.jpg" class="img-responsive" alt="Image">
 </figure>
 <figcaption>
 <h4>Edinburgh</h4>
@@ -1073,7 +1055,7 @@ Journey Planner </a></li>
 <button type="button" class="close" data-dismiss="modal">&times;</button>
 </div>
 <div class="modal-body">
- <figure>
+<figure>
 <img src="/uploads/content_pages_images/7-mallorca-port-de-soller-panorama.jpg" class="img-responsive" alt="Image">
 </figure>
 <figcaption>
@@ -1183,7 +1165,7 @@ $("#owl-route").owlCarousel({
 <th>Time</th>
 <th>Origin</th>
 <th>Remarks</th>
- </tr>
+</tr>
 </thead>
 <tbody id="arrivals_data">
 <tr>
@@ -1198,7 +1180,7 @@ $("#owl-route").owlCarousel({
 
 </tr>
 <tr>
-<td class="airline"> Ryanair
+<td class="airline">  Ryanair
 
 </td>
 <td class="flight">FR805</td>
@@ -1217,7 +1199,7 @@ $("#owl-route").owlCarousel({
 <td class="origin">LONDON GATWICK</td>
 
 <td class="status"><strong> </strong></td>
- 
+
 </tr>
 <tr>
 <td class="airline"> Ryanair
@@ -1236,7 +1218,7 @@ $("#owl-route").owlCarousel({
 </td>
 <td class="flight">FR6673</td>
 <td class="time">14:35</td>
-<td class="origin">LIVERPOOL</td>
+ <td class="origin">LIVERPOOL</td>
 
 <td class="status"><strong> </strong></td>
 
@@ -1251,7 +1233,7 @@ $("#owl-route").owlCarousel({
 
 <td class="status"><strong> </strong></td>
 
- </tr>
+</tr>
 <tr>
 <td class="airline"> Ryanair
 
@@ -1306,33 +1288,11 @@ $("#owl-route").owlCarousel({
 <td class="airline"> Ryanair
 
 </td>
-<td class="flight">FR2452</td>
-<td class="time">17:55</td>
-<td class="origin">FARO </td>
-
-<td class="status">Departed 1821<strong> </strong></td>
-
-</tr>
-<tr>
-<td class="airline"> Ryanair
-
-</td>
-<td class="flight">FR6674</td>
-<td class="time">18:15</td>
-<td class="origin">LIVERPOOL </td>
-
-<td class="status">Departed 1825<strong> </strong></td>
-
-</tr>
-<tr>
- <td class="airline"> Ryanair
-
-</td>
 <td class="flight">FR8143</td>
 <td class="time">08:00</td>
 <td class="origin">LONDON LUTON </td>
 
-<td class="status"><strong> </strong></td>
+ <td class="status"><strong> </strong></td>
 
 </tr>
 <tr>
@@ -1358,14 +1318,14 @@ $("#owl-route").owlCarousel({
 
 </tr>
 <tr>
- <td class="airline"> Ryanair
+<td class="airline"> Ryanair
 
 </td>
 <td class="flight">FR8203</td>
 <td class="time">13:50</td>
 <td class="origin">BRISTOL </td>
 
-<td class="status"><strong> </strong></td>
+ <td class="status"><strong> </strong></td>
 
 </tr>
 <tr>
@@ -1391,7 +1351,7 @@ $("#owl-route").owlCarousel({
 
 </tr>
 <tr>
-<td class="airline">  Ryanair
+<td class="airline"> Ryanair
 
 </td>
 <td class="flight">FR1743</td>
@@ -1427,7 +1387,7 @@ $("#owl-route").owlCarousel({
 </table>
 </div>
 </div>
- </div>
+</div>
 </div>
 </div>
 </div>
@@ -1514,7 +1474,7 @@ $("#owl-route").owlCarousel({
 <div class="box-cell">
 <h4>Featured Destination</h4>
 <h2>Edinburgh</h2>
-<p>Fly to beautiful Edinburgh twice weekly from September with Ryanair</p>
+ <p>Fly to beautiful Edinburgh twice weekly from September with Ryanair</p>
 <a data-toggle="modal" data-target="#myModal-info13" class="btn-more">More Information</a>
 </div>
 </div>
@@ -1567,7 +1527,7 @@ $("#owl-route").owlCarousel({
 <div class="modal-dialog">
 <div class="modal-content">
 <div class="modal-header">
-<button type="button" class="close" data-dismiss="modal">&times;</button>
+ <button type="button" class="close" data-dismiss="modal">&times;</button>
 </div>
 <div class="modal-body">
 <figure>
@@ -1974,6 +1934,6 @@ $("#owl-news_mob").owlCarousel({
 
             });
         </script>
-<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v652eace1692a40cfa3763df669d7439c1639079717194" integrity="sha512-Gi7xpJR8tSkrpF7aordPZQlW2DLtzUlZcumS8dMQjwDHEnw9I7ZLyiOj/6tZStRBGtGgN6ceN6cMH8z7etPGlw==" data-cf-beacon='{"rayId":"7142c04acc327698","token":"5c57d97659e94e0085a1d41247fcad19","version":"2021.12.0","si":100}' crossorigin="anonymous"></script>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v652eace1692a40cfa3763df669d7439c1639079717194" integrity="sha512-Gi7xpJR8tSkrpF7aordPZQlW2DLtzUlZcumS8dMQjwDHEnw9I7ZLyiOj/6tZStRBGtGgN6ceN6cMH8z7etPGlw==" data-cf-beacon='{"rayId":"7143182b5d6172d8","token":"5c57d97659e94e0085a1d41247fcad19","version":"2021.12.0","si":100}' crossorigin="anonymous"></script>
 </body>
 </html>
