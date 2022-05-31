@@ -119,7 +119,7 @@ fbq('track', 'PageView');
         $.ajax({
             url: "/clubSignUp/addClubWestUser", // Url to which the request is send
             type: "POST", // Type of request to be send, called as method
-            data: "club_email=" + emailAddress+'&YII_CSRF_TOKEN=S2x3QklRWUYyMH5SRjV-WnBjeTdUY2J-Rjdkajl6MjgNE9c1HzCli1ND1QVcnKhPPEFfBM8L3q5_L3vYxmc9RQ==', // Data sent to server, a set of key/value pairs (i.e. form fields and values)
+            data: "club_email=" + emailAddress+'&YII_CSRF_TOKEN=MjBoaDIxaGc0dnl5elc3ck5ldDY5eXBkU1BWRElVVU5nKbwFCvbM5r2QWpwArzXnVJ9uJOSOe9j3LyF_dz1pGA==', // Data sent to server, a set of key/value pairs (i.e. form fields and values)
             success: function (data)   // A function to be called if request succeeds
             {
                 $("#clubSubscribe").attr("disabled", false);
@@ -171,7 +171,7 @@ fbq('track', 'PageView');
         $.ajax({
             url: "/clubSignUp/addClubWestUser", // Url to which the request is send
             type: "POST", // Type of request to be send, called as method
-            data: "club_email=" + emailAddress+'&YII_CSRF_TOKEN=S2x3QklRWUYyMH5SRjV-WnBjeTdUY2J-Rjdkajl6MjgNE9c1HzCli1ND1QVcnKhPPEFfBM8L3q5_L3vYxmc9RQ==', // Data sent to server, a set of key/value pairs (i.e. form fields and values)
+            data: "club_email=" + emailAddress+'&YII_CSRF_TOKEN=MjBoaDIxaGc0dnl5elc3ck5ldDY5eXBkU1BWRElVVU5nKbwFCvbM5r2QWpwArzXnVJ9uJOSOe9j3LyF_dz1pGA==', // Data sent to server, a set of key/value pairs (i.e. form fields and values)
             success: function (data)   // A function to be called if request succeeds
             {
                
@@ -214,7 +214,7 @@ function redirectPage(url, tab_id) {
         $.ajax({
             type: "POST",
             url: "/site/getArrival",
-            data: 'YII_CSRF_TOKEN=S2x3QklRWUYyMH5SRjV-WnBjeTdUY2J-Rjdkajl6MjgNE9c1HzCli1ND1QVcnKhPPEFfBM8L3q5_L3vYxmc9RQ==',
+            data: 'YII_CSRF_TOKEN=MjBoaDIxaGc0dnl5elc3ck5ldDY5eXBkU1BWRElVVU5nKbwFCvbM5r2QWpwArzXnVJ9uJOSOe9j3LyF_dz1pGA==',
             success: function (data) {
                 //var result = $.parseJSON(data);
 
@@ -228,7 +228,7 @@ function redirectPage(url, tab_id) {
         $.ajax({
             type: "POST",
             url: "/site/getDeparture",
-            data: 'YII_CSRF_TOKEN=S2x3QklRWUYyMH5SRjV-WnBjeTdUY2J-Rjdkajl6MjgNE9c1HzCli1ND1QVcnKhPPEFfBM8L3q5_L3vYxmc9RQ==',
+            data: 'YII_CSRF_TOKEN=MjBoaDIxaGc0dnl5elc3ck5ldDY5eXBkU1BWRElVVU5nKbwFCvbM5r2QWpwArzXnVJ9uJOSOe9j3LyF_dz1pGA==',
             success: function (data) {
                 //var result = $.parseJSON(data);
                 $('#departure_data').html(data);
@@ -713,28 +713,10 @@ Journey Planner </a></li>
 <tbody id="arrivals_data">
 <tr>
 <td class="airline"> Ryanair </td>
-<td class="flight">FR2451</td>
-<td class="time">17:30</td>
-<td class="origin">FARO</td>
- 
-<td class="status">Landed 1727<strong> </strong></td>
-
-</tr>
-<tr>
-<td class="airline"> Ryanair </td>
-<td class="flight">FR6673</td>
-<td class="time">17:50</td>
-<td class="origin">LIVERPOOL</td>
-
-<td class="status">Landed 1745<strong> </strong></td>
-
-</tr>
-<tr>
-<td class="airline"> Ryanair </td>
 <td class="flight">FR8142</td>
 <td class="time">07:35</td>
 <td class="origin">LONDON LUTON</td>
-
+ 
 <td class="status"><strong> </strong></td>
 
 </tr>
@@ -757,7 +739,7 @@ Journey Planner </a></li>
 
 </tr>
 <tr>
- <td class="airline"> Ryanair </td>
+<td class="airline"> Ryanair </td>
 <td class="flight">FR8202</td>
 <td class="time">13:25</td>
 <td class="origin">BRISTOL</td>
@@ -821,7 +803,7 @@ Journey Planner </a></li>
 <tr>
 <th>Airline</th>
 <th>Flight</th>
-<th>Time</th>
+ <th>Time</th>
 <th>Destination</th>
 <th>Remarks</th>
 </tr>
@@ -888,7 +870,7 @@ Journey Planner </a></li>
 <td class="origin">LIVERPOOL </td>
 
 <td class="status"><strong> </strong></td>
- 
+
 </tr>
 <tr>
 <td class="airline"> Ryanair </td>
@@ -906,7 +888,7 @@ Journey Planner </a></li>
 <td class="origin">EAST MIDLANDS </td>
 
 <td class="status"><strong> </strong></td>
-
+ 
 </tr>
 <tr>
 <td class="airline"> Ryanair </td>
@@ -934,7 +916,7 @@ Journey Planner </a></li>
 </div>
 </div>
 </div>
- </div>
+</div>
 </div>
 <div id="menu10" class="tab-pane fade ">
 <div class="container-fluid" id="myTab-grp">
@@ -1051,7 +1033,7 @@ Journey Planner </a></li>
 </div>
 <div class="modal-body">
 <figure>
-<img src="/uploads/content_pages_images/13-edinburg.jpg" class="img-responsive" alt="Image">
+ <img src="/uploads/content_pages_images/13-edinburg.jpg" class="img-responsive" alt="Image">
 </figure>
 <figcaption>
 <h4>Edinburgh</h4>
@@ -1075,7 +1057,7 @@ Journey Planner </a></li>
 <img src="/uploads/content_pages_images/15-manchester.jpg" class="img-responsive" alt="Image">
 </figure>
 <figcaption>
- <h4>Manchester</h4>
+<h4>Manchester</h4>
 <p>From the world&rsquo;s first industrial city to a multicultural urban paradise, a Manchester visit is rich in cultural highlights, with the Transport, People&rsquo;s History and Science &amp; Industry museums offering a great insight into the area&rsquo;s history. Now just an hour from the West of&nbsp;Ireland with a new direct flight to Manchester by Ryanair from Ireland West Airport</p>
 <p>A city steeped in sporting glory, take a tour around England&rsquo;s National Football Museum or the world famous football stadium, Old Trafford. Food lovers will love the vast selection on offer, and no trip to Manchester would be complete without a trip to Rusholme&rsquo;s curry mile, which features around 70 different Indian restaurants. On the cusp of the Cheshire countryside, start making your plans to visit Manchester and enjoy the fruits of the north-west&rsquo;s premier city first-hand.</p>
 <p>You can now fly direct to Manchester twice weekly from September 3rd 2021 on Mondays and Fridays thanks to a new flight with Ryanair from Ireland West Airport. Book now on <a href="http://ryanair.com" target="_blank">ryanair.com</a></p>
@@ -1091,7 +1073,7 @@ Journey Planner </a></li>
 <button type="button" class="close" data-dismiss="modal">&times;</button>
 </div>
 <div class="modal-body">
-<figure>
+ <figure>
 <img src="/uploads/content_pages_images/7-mallorca-port-de-soller-panorama.jpg" class="img-responsive" alt="Image">
 </figure>
 <figcaption>
@@ -1175,7 +1157,7 @@ $("#owl-route").owlCarousel({
 <h4 class="panel-title panel-title-link">
 <a data-toggle="collapse" style="background-color:#60b353;color:#FFF;" data-parent="#accordion" href="#collapse4" class="active-g tab_4">Live flight Information</a>
 </h4>
- </div>
+</div>
 <div id="collapse4" class="panel-collapse collapse in">
 <div class="panel-body">
 <div class="flyt-detail">
@@ -1201,31 +1183,9 @@ $("#owl-route").owlCarousel({
 <th>Time</th>
 <th>Origin</th>
 <th>Remarks</th>
-</tr>
+ </tr>
 </thead>
 <tbody id="arrivals_data">
-<tr>
-<td class="airline"> Ryanair
-
-</td>
-<td class="flight">FR2451</td>
-<td class="time">17:30</td>
-<td class="origin">FARO</td>
-
-<td class="status">Landed 1727<strong> </strong></td>
-
-</tr>
-<tr>
-<td class="airline"> Ryanair
-
-</td>
-<td class="flight">FR6673</td>
-<td class="time">17:50</td>
-<td class="origin">LIVERPOOL</td>
-
-<td class="status">Landed 1745<strong> </strong></td>
-
-</tr>
 <tr>
 <td class="airline"> Ryanair
 
@@ -1254,10 +1214,10 @@ $("#owl-route").owlCarousel({
 </td>
 <td class="flight">EI911</td>
 <td class="time">12:30</td>
- <td class="origin">LONDON GATWICK</td>
+<td class="origin">LONDON GATWICK</td>
 
 <td class="status"><strong> </strong></td>
-
+ 
 </tr>
 <tr>
 <td class="airline"> Ryanair
@@ -1291,7 +1251,7 @@ $("#owl-route").owlCarousel({
 
 <td class="status"><strong> </strong></td>
 
-</tr>
+ </tr>
 <tr>
 <td class="airline"> Ryanair
 
@@ -1321,7 +1281,7 @@ $("#owl-route").owlCarousel({
 <td class="flight">FR4151</td>
 <td class="time">18:35</td>
 <td class="origin">BARCELONA GIRONA</td>
- 
+
 <td class="status"><strong> </strong></td>
 
 </tr>
@@ -1361,11 +1321,11 @@ $("#owl-route").owlCarousel({
 <td class="time">18:15</td>
 <td class="origin">LIVERPOOL </td>
 
- <td class="status">Departed 1825<strong> </strong></td>
+<td class="status">Departed 1825<strong> </strong></td>
 
 </tr>
 <tr>
-<td class="airline"> Ryanair
+ <td class="airline"> Ryanair
 
 </td>
 <td class="flight">FR8143</td>
@@ -1394,11 +1354,11 @@ $("#owl-route").owlCarousel({
 <td class="time">13:00</td>
 <td class="origin">LONDON GATWICK </td>
 
- <td class="status"><strong> </strong></td>
+<td class="status"><strong> </strong></td>
 
 </tr>
 <tr>
-<td class="airline"> Ryanair
+ <td class="airline"> Ryanair
 
 </td>
 <td class="flight">FR8203</td>
@@ -1428,10 +1388,10 @@ $("#owl-route").owlCarousel({
 <td class="origin">LONDON STANSTED </td>
 
 <td class="status"><strong> </strong></td>
- 
+
 </tr>
 <tr>
-<td class="airline"> Ryanair
+<td class="airline">  Ryanair
 
 </td>
 <td class="flight">FR1743</td>
@@ -1461,13 +1421,13 @@ $("#owl-route").owlCarousel({
 <td class="origin">BARCELONA GIRONA </td>
 
 <td class="status"><strong> </strong></td>
- 
+
 </tr>
 </tbody>
 </table>
 </div>
 </div>
-</div>
+ </div>
 </div>
 </div>
 </div>
@@ -1528,7 +1488,6 @@ $("#owl-route").owlCarousel({
 </div>
 <div class="panel panel-default">
 <div class="panel-heading">
-
 <h4 class="panel-title panel-title-link">
 <a data-toggle="collapse" href="#collapse9" class="tab_9"> New Routes</a>
 </h4>
@@ -2015,6 +1974,6 @@ $("#owl-news_mob").owlCarousel({
 
             });
         </script>
-<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v652eace1692a40cfa3763df669d7439c1639079717194" integrity="sha512-Gi7xpJR8tSkrpF7aordPZQlW2DLtzUlZcumS8dMQjwDHEnw9I7ZLyiOj/6tZStRBGtGgN6ceN6cMH8z7etPGlw==" data-cf-beacon='{"rayId":"71426867ce0f72bb","token":"5c57d97659e94e0085a1d41247fcad19","version":"2021.12.0","si":100}' crossorigin="anonymous"></script>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v652eace1692a40cfa3763df669d7439c1639079717194" integrity="sha512-Gi7xpJR8tSkrpF7aordPZQlW2DLtzUlZcumS8dMQjwDHEnw9I7ZLyiOj/6tZStRBGtGgN6ceN6cMH8z7etPGlw==" data-cf-beacon='{"rayId":"7142c04acc327698","token":"5c57d97659e94e0085a1d41247fcad19","version":"2021.12.0","si":100}' crossorigin="anonymous"></script>
 </body>
 </html>
