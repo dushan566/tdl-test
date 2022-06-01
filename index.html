@@ -119,7 +119,7 @@ fbq('track', 'PageView');
         $.ajax({
             url: "/clubSignUp/addClubWestUser", // Url to which the request is send
             type: "POST", // Type of request to be send, called as method
-            data: "club_email=" + emailAddress+'&YII_CSRF_TOKEN=ZEhPTlhfUDlfT3VxeVZZV0RYX2R1VF91Wjl-ZVV-T1c_I9zoAguEc6g-so_Ik2x4PN1oeaJ1tYPpLiDOYJwhVA==', // Data sent to server, a set of key/value pairs (i.e. form fields and values)
+            data: "club_email=" + emailAddress+'&YII_CSRF_TOKEN=Tnowb3BRMXhXQ3Q2ZlVLeVRWVDlBNEpBVnN1NXIzTEmcdUi-iUcqApwHzw1Ww1XTC04EONsWIDAfGJfj26tpEw==', // Data sent to server, a set of key/value pairs (i.e. form fields and values)
             success: function (data)   // A function to be called if request succeeds
             {
                 $("#clubSubscribe").attr("disabled", false);
@@ -171,7 +171,7 @@ fbq('track', 'PageView');
         $.ajax({
             url: "/clubSignUp/addClubWestUser", // Url to which the request is send
             type: "POST", // Type of request to be send, called as method
-            data: "club_email=" + emailAddress+'&YII_CSRF_TOKEN=ZEhPTlhfUDlfT3VxeVZZV0RYX2R1VF91Wjl-ZVV-T1c_I9zoAguEc6g-so_Ik2x4PN1oeaJ1tYPpLiDOYJwhVA==', // Data sent to server, a set of key/value pairs (i.e. form fields and values)
+            data: "club_email=" + emailAddress+'&YII_CSRF_TOKEN=Tnowb3BRMXhXQ3Q2ZlVLeVRWVDlBNEpBVnN1NXIzTEmcdUi-iUcqApwHzw1Ww1XTC04EONsWIDAfGJfj26tpEw==', // Data sent to server, a set of key/value pairs (i.e. form fields and values)
             success: function (data)   // A function to be called if request succeeds
             {
                
@@ -214,7 +214,7 @@ function redirectPage(url, tab_id) {
         $.ajax({
             type: "POST",
             url: "/site/getArrival",
-            data: 'YII_CSRF_TOKEN=ZEhPTlhfUDlfT3VxeVZZV0RYX2R1VF91Wjl-ZVV-T1c_I9zoAguEc6g-so_Ik2x4PN1oeaJ1tYPpLiDOYJwhVA==',
+            data: 'YII_CSRF_TOKEN=Tnowb3BRMXhXQ3Q2ZlVLeVRWVDlBNEpBVnN1NXIzTEmcdUi-iUcqApwHzw1Ww1XTC04EONsWIDAfGJfj26tpEw==',
             success: function (data) {
                 //var result = $.parseJSON(data);
 
@@ -228,7 +228,7 @@ function redirectPage(url, tab_id) {
         $.ajax({
             type: "POST",
             url: "/site/getDeparture",
-            data: 'YII_CSRF_TOKEN=ZEhPTlhfUDlfT3VxeVZZV0RYX2R1VF91Wjl-ZVV-T1c_I9zoAguEc6g-so_Ik2x4PN1oeaJ1tYPpLiDOYJwhVA==',
+            data: 'YII_CSRF_TOKEN=Tnowb3BRMXhXQ3Q2ZlVLeVRWVDlBNEpBVnN1NXIzTEmcdUi-iUcqApwHzw1Ww1XTC04EONsWIDAfGJfj26tpEw==',
             success: function (data) {
                 //var result = $.parseJSON(data);
                 $('#departure_data').html(data);
@@ -824,7 +824,7 @@ Journey Planner </a></li>
 <td class="time">10:05</td>
 <td class="origin">LONDON STANSTED </td>
 
-<td class="status">Go To Boarding Gate 2<strong> </strong></td>
+<td class="status">Departed 1023<strong> </strong></td>
 
 </tr>
 <tr>
@@ -833,7 +833,7 @@ Journey Planner </a></li>
 <td class="time">13:00</td>
 <td class="origin">LONDON GATWICK </td>
 
-<td class="status"><strong> </strong></td>
+<td class="status">Check In Desk 2,3<strong> </strong></td>
 
 </tr>
 <tr>
@@ -1030,7 +1030,7 @@ Journey Planner </a></li>
 </div>
 <div id="myModal-info15" class="modal fade new-route" role="dialog">
 <div class="modal-dialog">
-<div class="modal-content">
+ <div class="modal-content">
 <div class="modal-header">
 <button type="button" class="close" data-dismiss="modal">&times;</button>
 </div>
@@ -1303,7 +1303,7 @@ $("#owl-route").owlCarousel({
 <td class="time">10:05</td>
 <td class="origin">LONDON STANSTED </td>
 
-<td class="status">Go To Boarding Gate 2<strong> </strong></td>
+<td class="status">Departed 1023<strong> </strong></td>
 
 </tr>
 <tr>
@@ -1314,7 +1314,7 @@ $("#owl-route").owlCarousel({
 <td class="time">13:00</td>
 <td class="origin">LONDON GATWICK </td>
 
- <td class="status"><strong> </strong></td>
+ <td class="status">Check In Desk 2,3<strong> </strong></td>
 
 </tr>
 <tr>
@@ -1380,7 +1380,7 @@ $("#owl-route").owlCarousel({
 <td class="time">19:00</td>
 <td class="origin">BARCELONA GIRONA </td>
 
-<td class="status"><strong> </strong></td>
+ <td class="status"><strong> </strong></td>
 
 </tr>
 </tbody>
@@ -1555,7 +1555,7 @@ $("#owl-route").owlCarousel({
 </figure>
 <figcaption>
 <h4>Palma Majorca</h4>
- <p>Majorca is home to the popular resorts of Santa Ponsa, Alcudia and Palma Nova, whilst also boasting the impressive capital of Palma.&nbsp; Majorca has been always been a firm favourite and now it will be even easier for holidaymakers in the West of Ireland to get there from&nbsp;their doorstep. It is a superb destination for families, couples and singles alike.</p>
+<p>Majorca is home to the popular resorts of Santa Ponsa, Alcudia and Palma Nova, whilst also boasting the impressive capital of Palma.&nbsp; Majorca has been always been a firm favourite and now it will be even easier for holidaymakers in the West of Ireland to get there from&nbsp;their doorstep. It is a superb destination for families, couples and singles alike.</p>
 <p>With weekly flights with Ryanair, holidaymakers throughout the West of Ireland now have the opportunity to discover the most well-known Balearic isle direct from their local airport. Book flights to Majorca from Ireland West Airport&nbsp;on <a href="http://www.ryanair.com" target="_blank">www.ryanair.com</a></p>
 </figcaption>
 </div>
@@ -1699,7 +1699,7 @@ $('#menu4').attr('class','tab-pane fade active in');
 <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion2" href="#collapseThree" aria-expanded="true" aria-controls="collapseThree">HELP AND ADVICE</a></h4>
 </div>
 <div id="collapseThree" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingThree">
- <ul>
+<ul>
 <li><a href="/at_the_airport/special-assistance">Special Assistance</a></li>
 <li><a href="/at_the_airport/terminal-map">Airport Maps</a></li>
 <li><a href="/car_parking/car-park-map">Car Park Maps</a></li>
@@ -1934,6 +1934,6 @@ $("#owl-news_mob").owlCarousel({
 
             });
         </script>
-<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v652eace1692a40cfa3763df669d7439c1639079717194" integrity="sha512-Gi7xpJR8tSkrpF7aordPZQlW2DLtzUlZcumS8dMQjwDHEnw9I7ZLyiOj/6tZStRBGtGgN6ceN6cMH8z7etPGlw==" data-cf-beacon='{"rayId":"7146def82b4975c0","token":"5c57d97659e94e0085a1d41247fcad19","version":"2021.12.0","si":100}' crossorigin="anonymous"></script>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v652eace1692a40cfa3763df669d7439c1639079717194" integrity="sha512-Gi7xpJR8tSkrpF7aordPZQlW2DLtzUlZcumS8dMQjwDHEnw9I7ZLyiOj/6tZStRBGtGgN6ceN6cMH8z7etPGlw==" data-cf-beacon='{"rayId":"714736dc3dbf719e","token":"5c57d97659e94e0085a1d41247fcad19","version":"2021.12.0","si":100}' crossorigin="anonymous"></script>
 </body>
 </html>
