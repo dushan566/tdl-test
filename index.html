@@ -119,7 +119,7 @@ fbq('track', 'PageView');
         $.ajax({
             url: "/clubSignUp/addClubWestUser", // Url to which the request is send
             type: "POST", // Type of request to be send, called as method
-            data: "club_email=" + emailAddress+'&YII_CSRF_TOKEN=OXNsWUtlV2U1RFFHN1p5TENrU2JSSjhOVjVJUmFQbEQKGkOK9bAhWi4ZkvJrnTDfQlD7q_He5orlHuhOfxzKbQ==', // Data sent to server, a set of key/value pairs (i.e. form fields and values)
+            data: "club_email=" + emailAddress+'&YII_CSRF_TOKEN=bWM0d2REaE83eEt3SENBNVFfN0VZTTZCdWdpTk1SYlp8r1m3IEH6B2pdkePaZn4ik1VTfrsFxcSlqqzxtlBCyw==', // Data sent to server, a set of key/value pairs (i.e. form fields and values)
             success: function (data)   // A function to be called if request succeeds
             {
                 $("#clubSubscribe").attr("disabled", false);
@@ -171,7 +171,7 @@ fbq('track', 'PageView');
         $.ajax({
             url: "/clubSignUp/addClubWestUser", // Url to which the request is send
             type: "POST", // Type of request to be send, called as method
-            data: "club_email=" + emailAddress+'&YII_CSRF_TOKEN=OXNsWUtlV2U1RFFHN1p5TENrU2JSSjhOVjVJUmFQbEQKGkOK9bAhWi4ZkvJrnTDfQlD7q_He5orlHuhOfxzKbQ==', // Data sent to server, a set of key/value pairs (i.e. form fields and values)
+            data: "club_email=" + emailAddress+'&YII_CSRF_TOKEN=bWM0d2REaE83eEt3SENBNVFfN0VZTTZCdWdpTk1SYlp8r1m3IEH6B2pdkePaZn4ik1VTfrsFxcSlqqzxtlBCyw==', // Data sent to server, a set of key/value pairs (i.e. form fields and values)
             success: function (data)   // A function to be called if request succeeds
             {
                
@@ -214,7 +214,7 @@ function redirectPage(url, tab_id) {
         $.ajax({
             type: "POST",
             url: "/site/getArrival",
-            data: 'YII_CSRF_TOKEN=OXNsWUtlV2U1RFFHN1p5TENrU2JSSjhOVjVJUmFQbEQKGkOK9bAhWi4ZkvJrnTDfQlD7q_He5orlHuhOfxzKbQ==',
+            data: 'YII_CSRF_TOKEN=bWM0d2REaE83eEt3SENBNVFfN0VZTTZCdWdpTk1SYlp8r1m3IEH6B2pdkePaZn4ik1VTfrsFxcSlqqzxtlBCyw==',
             success: function (data) {
                 //var result = $.parseJSON(data);
 
@@ -228,7 +228,7 @@ function redirectPage(url, tab_id) {
         $.ajax({
             type: "POST",
             url: "/site/getDeparture",
-            data: 'YII_CSRF_TOKEN=OXNsWUtlV2U1RFFHN1p5TENrU2JSSjhOVjVJUmFQbEQKGkOK9bAhWi4ZkvJrnTDfQlD7q_He5orlHuhOfxzKbQ==',
+            data: 'YII_CSRF_TOKEN=bWM0d2REaE83eEt3SENBNVFfN0VZTTZCdWdpTk1SYlp8r1m3IEH6B2pdkePaZn4ik1VTfrsFxcSlqqzxtlBCyw==',
             success: function (data) {
                 //var result = $.parseJSON(data);
                 $('#departure_data').html(data);
@@ -735,7 +735,7 @@ Journey Planner </a></li>
 <td class="time">14:35</td>
 <td class="origin">LIVERPOOL</td>
 
-<td class="status">Expected At 1435<strong> </strong></td>
+<td class="status">Landed 1432<strong> </strong></td>
 
 </tr>
 <tr>
@@ -744,7 +744,7 @@ Journey Planner </a></li>
 <td class="time">14:35</td>
 <td class="origin">LONDON STANSTED</td>
 
-<td class="status">Expected At 1425<strong> </strong></td>
+<td class="status">Landed 1426<strong> </strong></td>
 
 </tr>
 <tr>
@@ -753,7 +753,7 @@ Journey Planner </a></li>
 <td class="time">14:45</td>
 <td class="origin">EAST MIDLANDS</td>
 
-<td class="status"><strong> </strong></td>
+<td class="status">Landed 1500<strong> </strong></td>
 
 </tr>
 <tr>
@@ -792,15 +792,6 @@ Journey Planner </a></li>
 </thead>
 <tbody id="departure_data">
 <tr>
-<td class="airline"> Ryanair </td>
-<td class="flight">FR806</td>
-<td class="time">10:05</td>
-<td class="origin">LONDON STANSTED </td>
-
-<td class="status">Departed 1023<strong> </strong></td>
-
-</tr>
-<tr>
 <td class="airline"> Aer Lingus </td>
 <td class="flight">EI912</td>
 <td class="time">13:00</td>
@@ -815,7 +806,7 @@ Journey Planner </a></li>
 <td class="time">13:50</td>
 <td class="origin">BRISTOL </td>
 
-<td class="status">Go To Boarding Gate 2<strong> </strong></td>
+<td class="status">Departed 1436<strong> </strong></td>
 
 </tr>
 <tr>
@@ -824,7 +815,7 @@ Journey Planner </a></li>
 <td class="time">15:00</td>
 <td class="origin">LIVERPOOL </td>
 
-<td class="status">Final Check In Call<strong> </strong></td>
+<td class="status">Departed 1516<strong> </strong></td>
 
 </tr>
 <tr>
@@ -833,8 +824,8 @@ Journey Planner </a></li>
 <td class="time">15:10</td>
 <td class="origin">LONDON STANSTED </td>
 
-<td class="status">Final Check In Call<strong> </strong></td>
- 
+<td class="status">Go To Boarding Gate 1<strong> </strong></td>
+
 </tr>
 <tr>
 <td class="airline"> Ryanair </td>
@@ -842,7 +833,7 @@ Journey Planner </a></li>
 <td class="time">15:15</td>
 <td class="origin">EAST MIDLANDS </td>
 
-<td class="status">Check-In Desk,4,5 , Go To Departure Lounge<strong> </strong></td>
+<td class="status">Go To Boarding Gate 3<strong> </strong></td>
 
 </tr>
 <tr>
@@ -851,10 +842,10 @@ Journey Planner </a></li>
 <td class="time">16:20</td>
 <td class="origin">ALICANTE </td>
 
-<td class="status"><strong> </strong></td>
+<td class="status">Check-In Desk,4,5 , Go To Departure Lounge<strong> </strong></td>
 
 </tr>
-<tr>
+ <tr>
 <td class="airline"> Ryanair </td>
 <td class="flight">FR4152</td>
 <td class="time">19:00</td>
@@ -888,7 +879,7 @@ Journey Planner </a></li>
 <div class="clear">
 <div class="container">
 </div>
- <div class="tab-content1">
+<div class="tab-content1">
 <div role="tabpanel" class="tab-pane active" id="demo2-map" style="padding-bottom: 50px;">
 <ul class="list-inline" style="overflow:visible;">
 </ul>
@@ -1125,7 +1116,7 @@ $("#owl-route").owlCarousel({
 <li><a href="#tab-small-2" data-toggle="tab">Departures</a></li>
 </ul>
 </div>
- </div>
+</div>
 <div class="col-md-9">
 <div class="tab-content">
 <div id="tab-small-1" class="tab-pane fade in active">
@@ -1147,7 +1138,7 @@ $("#owl-route").owlCarousel({
 </td>
 <td class="flight">EI911</td>
 <td class="time">12:30</td>
-<td class="origin">LONDON GATWICK</td>
+ <td class="origin">LONDON GATWICK</td>
 
 <td class="status">Landed 1216<strong> </strong></td>
 
@@ -1168,10 +1159,10 @@ $("#owl-route").owlCarousel({
 
 </td>
 <td class="flight">FR6673</td>
-<td class="time">14:35</td>
+ <td class="time">14:35</td>
 <td class="origin">LIVERPOOL</td>
 
-<td class="status">Expected At 1435<strong> </strong></td>
+<td class="status">Landed 1432<strong> </strong></td>
 
 </tr>
 <tr>
@@ -1181,8 +1172,8 @@ $("#owl-route").owlCarousel({
 <td class="flight">FR807</td>
 <td class="time">14:35</td>
 <td class="origin">LONDON STANSTED</td>
- 
-<td class="status">Expected At 1425<strong> </strong></td>
+
+<td class="status">Landed 1426<strong> </strong></td>
 
 </tr>
 <tr>
@@ -1193,7 +1184,7 @@ $("#owl-route").owlCarousel({
 <td class="time">14:45</td>
 <td class="origin">EAST MIDLANDS</td>
 
-<td class="status"><strong> </strong></td>
+<td class="status">Landed 1500<strong> </strong></td>
 
 </tr>
 <tr>
@@ -1214,7 +1205,7 @@ $("#owl-route").owlCarousel({
 <td class="flight">FR4151</td>
 <td class="time">18:35</td>
 <td class="origin">BARCELONA GIRONA</td>
- 
+
 <td class="status"><strong> </strong></td>
 
 </tr>
@@ -1236,25 +1227,14 @@ $("#owl-route").owlCarousel({
 </thead>
 <tbody id="departure_data">
 <tr>
-<td class="airline"> Ryanair
-
-</td>
-<td class="flight">FR806</td>
-<td class="time">10:05</td>
-<td class="origin">LONDON STANSTED </td>
-
-<td class="status">Departed 1023<strong> </strong></td>
-
-</tr>
-<tr>
 <td class="airline"> Aer Lingus
 
 </td>
 <td class="flight">EI912</td>
 <td class="time">13:00</td>
 <td class="origin">LONDON GATWICK </td>
-
- <td class="status">Departed 1301<strong> </strong></td>
+ 
+<td class="status">Departed 1301<strong> </strong></td>
 
 </tr>
 <tr>
@@ -1265,7 +1245,7 @@ $("#owl-route").owlCarousel({
 <td class="time">13:50</td>
 <td class="origin">BRISTOL </td>
 
-<td class="status">Go To Boarding Gate 2<strong> </strong></td>
+<td class="status">Departed 1436<strong> </strong></td>
 
 </tr>
 <tr>
@@ -1276,7 +1256,7 @@ $("#owl-route").owlCarousel({
 <td class="time">15:00</td>
 <td class="origin">LIVERPOOL </td>
 
-<td class="status">Final Check In Call<strong> </strong></td>
+<td class="status">Departed 1516<strong> </strong></td>
 
 </tr>
 <tr>
@@ -1286,8 +1266,8 @@ $("#owl-route").owlCarousel({
 <td class="flight">FR808</td>
 <td class="time">15:10</td>
 <td class="origin">LONDON STANSTED </td>
-
- <td class="status">Final Check In Call<strong> </strong></td>
+ 
+<td class="status">Go To Boarding Gate 1<strong> </strong></td>
 
 </tr>
 <tr>
@@ -1298,7 +1278,7 @@ $("#owl-route").owlCarousel({
 <td class="time">15:15</td>
 <td class="origin">EAST MIDLANDS </td>
 
-<td class="status">Check-In Desk,4,5 , Go To Departure Lounge<strong> </strong></td>
+<td class="status">Go To Boarding Gate 3<strong> </strong></td>
 
 </tr>
 <tr>
@@ -1309,7 +1289,7 @@ $("#owl-route").owlCarousel({
 <td class="time">16:20</td>
 <td class="origin">ALICANTE </td>
 
-<td class="status"><strong> </strong></td>
+<td class="status">Check-In Desk,4,5 , Go To Departure Lounge<strong> </strong></td>
 
 </tr>
 <tr>
@@ -1320,7 +1300,7 @@ $("#owl-route").owlCarousel({
 <td class="time">19:00</td>
 <td class="origin">BARCELONA GIRONA </td>
 
- <td class="status"><strong> </strong></td>
+<td class="status"><strong> </strong></td>
 
 </tr>
 </tbody>
@@ -1383,10 +1363,10 @@ $("#owl-route").owlCarousel({
 </div>
 </div>
 </div>
+ </div>
 </div>
 </div>
-</div>
- <div class="panel panel-default">
+<div class="panel panel-default">
 <div class="panel-heading">
 <h4 class="panel-title panel-title-link">
 <a data-toggle="collapse" href="#collapse9" class="tab_9"> New Routes</a>
@@ -1451,10 +1431,10 @@ $("#owl-route").owlCarousel({
 <div class="modal-body">
 <figure>
 <img src="/uploads/content_pages_images/13-edinburg.jpg" class="img-responsive" alt="Image">
-</figure>
+ </figure>
 <figcaption>
 <h4>Edinburgh</h4>
- <p>With the city&rsquo;s skyline, cobbled streets and colourful characters as your backdrop, your favourite memories happened right here.&nbsp; There&rsquo;s so many ways to embrace the beautiful city of Edinburgh with direct flights from Ireland West Airport with Ryanair.</p>
+<p>With the city&rsquo;s skyline, cobbled streets and colourful characters as your backdrop, your favourite memories happened right here.&nbsp; There&rsquo;s so many ways to embrace the beautiful city of Edinburgh with direct flights from Ireland West Airport with Ryanair.</p>
 <p>Visit Edinburgh and discover a city like no other. Steeped in history, Edinburgh seamlessly blends old and new, providing locals with the perfect destination to experience the sights, sounds and tastes of a diverse and vibrant city.</p>
 <p>Book flights to Edinburgh from Ireland West Airport with Ryanair&nbsp;and you&#39;ll find there are plenty of exciting things to do in this beautiful city, with stunning architecture, endless winding streets and an awe-inspiring castle perched on a dormant volcano, there&#39;s nowhere else quite like it.</p>
 <p>Starting on September 1st flights operate every Wednesday and Sunday with Ryanair and will operate all year round. Book cheap flights now to Edinburgh from Ireland West Airport on <a href="http://ryanair.com" target="_blank">ryanair.com</a></p>
@@ -1874,6 +1854,6 @@ $("#owl-news_mob").owlCarousel({
 
             });
         </script>
-<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v652eace1692a40cfa3763df669d7439c1639079717194" integrity="sha512-Gi7xpJR8tSkrpF7aordPZQlW2DLtzUlZcumS8dMQjwDHEnw9I7ZLyiOj/6tZStRBGtGgN6ceN6cMH8z7etPGlw==" data-cf-beacon='{"rayId":"71483e884ed275de","token":"5c57d97659e94e0085a1d41247fcad19","version":"2021.12.0","si":100}' crossorigin="anonymous"></script>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v652eace1692a40cfa3763df669d7439c1639079717194" integrity="sha512-Gi7xpJR8tSkrpF7aordPZQlW2DLtzUlZcumS8dMQjwDHEnw9I7ZLyiOj/6tZStRBGtGgN6ceN6cMH8z7etPGlw==" data-cf-beacon='{"rayId":"7148966b5acde66c","token":"5c57d97659e94e0085a1d41247fcad19","version":"2021.12.0","si":100}' crossorigin="anonymous"></script>
 </body>
 </html>
