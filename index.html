@@ -119,7 +119,7 @@ fbq('track', 'PageView');
         $.ajax({
             url: "/clubSignUp/addClubWestUser", // Url to which the request is send
             type: "POST", // Type of request to be send, called as method
-            data: "club_email=" + emailAddress+'&YII_CSRF_TOKEN=NVhqaHVYY1F0eXdoY0dZWklaaWxnWXdwSXVHNXdhb2gqvmnnKQmTRYq2fEncpGyg5LWj6JtrzYK7SNwbVwgVnQ==', // Data sent to server, a set of key/value pairs (i.e. form fields and values)
+            data: "club_email=" + emailAddress+'&YII_CSRF_TOKEN=NW5CMzNCYzVHQjdtfk9mcUdBSDJ5NEw5N2hSTm5lcVKaixZJodstYgx5M-GFlUKzEArA5lPFGQbIHSVNuBe8yg==', // Data sent to server, a set of key/value pairs (i.e. form fields and values)
             success: function (data)   // A function to be called if request succeeds
             {
                 $("#clubSubscribe").attr("disabled", false);
@@ -171,7 +171,7 @@ fbq('track', 'PageView');
         $.ajax({
             url: "/clubSignUp/addClubWestUser", // Url to which the request is send
             type: "POST", // Type of request to be send, called as method
-            data: "club_email=" + emailAddress+'&YII_CSRF_TOKEN=NVhqaHVYY1F0eXdoY0dZWklaaWxnWXdwSXVHNXdhb2gqvmnnKQmTRYq2fEncpGyg5LWj6JtrzYK7SNwbVwgVnQ==', // Data sent to server, a set of key/value pairs (i.e. form fields and values)
+            data: "club_email=" + emailAddress+'&YII_CSRF_TOKEN=NW5CMzNCYzVHQjdtfk9mcUdBSDJ5NEw5N2hSTm5lcVKaixZJodstYgx5M-GFlUKzEArA5lPFGQbIHSVNuBe8yg==', // Data sent to server, a set of key/value pairs (i.e. form fields and values)
             success: function (data)   // A function to be called if request succeeds
             {
                
@@ -214,7 +214,7 @@ function redirectPage(url, tab_id) {
         $.ajax({
             type: "POST",
             url: "/site/getArrival",
-            data: 'YII_CSRF_TOKEN=NVhqaHVYY1F0eXdoY0dZWklaaWxnWXdwSXVHNXdhb2gqvmnnKQmTRYq2fEncpGyg5LWj6JtrzYK7SNwbVwgVnQ==',
+            data: 'YII_CSRF_TOKEN=NW5CMzNCYzVHQjdtfk9mcUdBSDJ5NEw5N2hSTm5lcVKaixZJodstYgx5M-GFlUKzEArA5lPFGQbIHSVNuBe8yg==',
             success: function (data) {
                 //var result = $.parseJSON(data);
 
@@ -228,7 +228,7 @@ function redirectPage(url, tab_id) {
         $.ajax({
             type: "POST",
             url: "/site/getDeparture",
-            data: 'YII_CSRF_TOKEN=NVhqaHVYY1F0eXdoY0dZWklaaWxnWXdwSXVHNXdhb2gqvmnnKQmTRYq2fEncpGyg5LWj6JtrzYK7SNwbVwgVnQ==',
+            data: 'YII_CSRF_TOKEN=NW5CMzNCYzVHQjdtfk9mcUdBSDJ5NEw5N2hSTm5lcVKaixZJodstYgx5M-GFlUKzEArA5lPFGQbIHSVNuBe8yg==',
             success: function (data) {
                 //var result = $.parseJSON(data);
                 $('#departure_data').html(data);
@@ -1173,14 +1173,14 @@ $("#owl-route").owlCarousel({
 
 </td>
 <td class="flight">FR8142</td>
- <td class="time">07:35</td>
+<td class="time">07:35</td>
 <td class="origin">LONDON LUTON</td>
 
 <td class="status"><strong> </strong></td>
 
 </tr>
 <tr>
-<td class="airline"> Ryanair
+<td class="airline">  Ryanair
 
 </td>
 <td class="flight">FR805</td>
@@ -1682,7 +1682,7 @@ $('#menu4').attr('class','tab-pane fade active in');
 </div>
 <div id="collapseTwo" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingTwo">
 <ul>
-<li><a href="/about_us">Company Information</a></li>
+ <li><a href="/about_us">Company Information</a></li>
 <li><a href="/about_us/community-charity">Community</a></li>
 <li><a href="/media_centre">Media Centre</a></li>
 <li><a href="/business_with_us/airport-advertising">Advertise with Us</a></li>
@@ -1934,6 +1934,6 @@ $("#owl-news_mob").owlCarousel({
 
             });
         </script>
-<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v652eace1692a40cfa3763df669d7439c1639079717194" integrity="sha512-Gi7xpJR8tSkrpF7aordPZQlW2DLtzUlZcumS8dMQjwDHEnw9I7ZLyiOj/6tZStRBGtGgN6ceN6cMH8z7etPGlw==" data-cf-beacon='{"rayId":"7144cfa4b9f776cc","token":"5c57d97659e94e0085a1d41247fcad19","version":"2021.12.0","si":100}' crossorigin="anonymous"></script>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v652eace1692a40cfa3763df669d7439c1639079717194" integrity="sha512-Gi7xpJR8tSkrpF7aordPZQlW2DLtzUlZcumS8dMQjwDHEnw9I7ZLyiOj/6tZStRBGtGgN6ceN6cMH8z7etPGlw==" data-cf-beacon='{"rayId":"71452786acd874f1","token":"5c57d97659e94e0085a1d41247fcad19","version":"2021.12.0","si":100}' crossorigin="anonymous"></script>
 </body>
 </html>
