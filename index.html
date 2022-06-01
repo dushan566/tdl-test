@@ -119,7 +119,7 @@ fbq('track', 'PageView');
         $.ajax({
             url: "/clubSignUp/addClubWestUser", // Url to which the request is send
             type: "POST", // Type of request to be send, called as method
-            data: "club_email=" + emailAddress+'&YII_CSRF_TOKEN=TGRncVNMX2NmbzBJTTdiZmZ4aGlreXV0S19QOUxJWmXx-a0pay_LzcFhtZoO93uDv9PP0OPId7f5F0id0HCRHw==', // Data sent to server, a set of key/value pairs (i.e. form fields and values)
+            data: "club_email=" + emailAddress+'&YII_CSRF_TOKEN=QWUxS0psRWNEOXNVVTdDb0RlSmFfQ1hkNkU4enpPbnrrp4Tmt5eZFdS8G6KyVK5mBETB5f-lrhVanlnFZERrOg==', // Data sent to server, a set of key/value pairs (i.e. form fields and values)
             success: function (data)   // A function to be called if request succeeds
             {
                 $("#clubSubscribe").attr("disabled", false);
@@ -171,7 +171,7 @@ fbq('track', 'PageView');
         $.ajax({
             url: "/clubSignUp/addClubWestUser", // Url to which the request is send
             type: "POST", // Type of request to be send, called as method
-            data: "club_email=" + emailAddress+'&YII_CSRF_TOKEN=TGRncVNMX2NmbzBJTTdiZmZ4aGlreXV0S19QOUxJWmXx-a0pay_LzcFhtZoO93uDv9PP0OPId7f5F0id0HCRHw==', // Data sent to server, a set of key/value pairs (i.e. form fields and values)
+            data: "club_email=" + emailAddress+'&YII_CSRF_TOKEN=QWUxS0psRWNEOXNVVTdDb0RlSmFfQ1hkNkU4enpPbnrrp4Tmt5eZFdS8G6KyVK5mBETB5f-lrhVanlnFZERrOg==', // Data sent to server, a set of key/value pairs (i.e. form fields and values)
             success: function (data)   // A function to be called if request succeeds
             {
                
@@ -214,7 +214,7 @@ function redirectPage(url, tab_id) {
         $.ajax({
             type: "POST",
             url: "/site/getArrival",
-            data: 'YII_CSRF_TOKEN=TGRncVNMX2NmbzBJTTdiZmZ4aGlreXV0S19QOUxJWmXx-a0pay_LzcFhtZoO93uDv9PP0OPId7f5F0id0HCRHw==',
+            data: 'YII_CSRF_TOKEN=QWUxS0psRWNEOXNVVTdDb0RlSmFfQ1hkNkU4enpPbnrrp4Tmt5eZFdS8G6KyVK5mBETB5f-lrhVanlnFZERrOg==',
             success: function (data) {
                 //var result = $.parseJSON(data);
 
@@ -228,7 +228,7 @@ function redirectPage(url, tab_id) {
         $.ajax({
             type: "POST",
             url: "/site/getDeparture",
-            data: 'YII_CSRF_TOKEN=TGRncVNMX2NmbzBJTTdiZmZ4aGlreXV0S19QOUxJWmXx-a0pay_LzcFhtZoO93uDv9PP0OPId7f5F0id0HCRHw==',
+            data: 'YII_CSRF_TOKEN=QWUxS0psRWNEOXNVVTdDb0RlSmFfQ1hkNkU4enpPbnrrp4Tmt5eZFdS8G6KyVK5mBETB5f-lrhVanlnFZERrOg==',
             success: function (data) {
                 //var result = $.parseJSON(data);
                 $('#departure_data').html(data);
@@ -593,12 +593,12 @@ At the Airport<span class="caret"></span>
 Airport Shopping</a></li>
 <li class=' list_25'><a class="touchhandleIOS" href="https://www.irelandwestairport.com/at_the_airport/restaurants-and-bars">
 <div class="icon"><img src="/uploads/icons/icon_55eefe0faed44d.png" alt="Icon"></div>
- Restaurants And Bars</a></li>
+Restaurants And Bars</a></li>
 <li class=' list_26'><a class="touchhandleIOS" href="https://www.irelandwestairport.com/at_the_airport/facilities-and-services">
 <div class="icon"><img src="/uploads/icons/icon_55eefe17e8d6d4.png" alt="Icon"></div>
 Facilities And Services</a></li>
 <li class=' list_27'><a class="touchhandleIOS" href="https://www.irelandwestairport.com/at_the_airport/security-and-customs">
-<div class="icon"><img src="/uploads/icons/icon_55eefe1b3ac114.png" alt="Icon"></div>
+ <div class="icon"><img src="/uploads/icons/icon_55eefe1b3ac114.png" alt="Icon"></div>
 Security And Customs</a></li>
 <li class=' list_28'><a class="touchhandleIOS" href="https://www.irelandwestairport.com/at_the_airport/terminal-map">
 <div class="icon"><img src="/uploads/icons/icon_55eefe1c1bbfc9.png" alt="Icon"></div>
@@ -615,7 +615,7 @@ Special Assistance</a></li>
 Directions & Transport<span class="caret"></span>
 </a>
 <ul class="dropdown-menu mega-dropdown-menu menu1">
- <li class=' list_17'><a class="touchhandleIOS" href="https://irelandwestairport.com/direction_and_transport/by-car">
+<li class=' list_17'><a class="touchhandleIOS" href="https://irelandwestairport.com/direction_and_transport/by-car">
 <div class="icon"><img src="/uploads/icons/icon_55eefe220c6adb.png" alt="Icon"></div>
 By Car</a></li>
 <li class=' list_14'><a class="touchhandleIOS" href="https://irelandwestairport.com/direction_and_transport/by-bus">
@@ -676,7 +676,7 @@ Journey Planner </a></li>
 <ul class="nav nav-tabs nav-tabs-head">
 <li class="list_4 active "><a id="" class="tab_4" data-toggle="tab" href="#menu4">
 <div class="icon"><img src="/uploads/icons/icon_55eefdb70debca.png" alt="Icon"></div>Live flight Information</a></li>
- <li class="list_10  "><a id="" class="tab_10" data-toggle="tab" href="#menu10">
+<li class="list_10  "><a id="" class="tab_10" data-toggle="tab" href="#menu10">
 <div class="icon"><img src="/uploads/icons/icon_55eefdc1e11aaf.png" alt="Icon"></div>Destinations</a></li>
 <li class="list_9  "><a id="" class="tab_9" data-toggle="tab" href="#menu9">
 <div class="icon"><img src="/uploads/icons/icon_55eefdec274265.png" alt="Icon"></div>New Routes</a></li>
@@ -728,7 +728,7 @@ Journey Planner </a></li>
 
 <td class="status"><strong> </strong></td>
 
- </tr>
+</tr>
 <tr>
 <td class="airline"> Ryanair </td>
 <td class="flight">FR2451</td>
@@ -765,12 +765,12 @@ Journey Planner </a></li>
 <td class="status"><strong> </strong></td>
 
 </tr>
-<tr>
+ <tr>
 <td class="airline"> Ryanair </td>
 <td class="flight">FR8144</td>
 <td class="time">13:45</td>
 <td class="origin">LONDON LUTON</td>
- 
+
 <td class="status"><strong> </strong></td>
 
 </tr>
@@ -813,12 +813,12 @@ Journey Planner </a></li>
 <td class="airline"> Ryanair </td>
 <td class="flight">FR806</td>
 <td class="time">09:35</td>
-<td class="origin">LONDON STANSTED </td>
+ <td class="origin">LONDON STANSTED </td>
 
 <td class="status"><strong> </strong></td>
 
 </tr>
- <tr>
+<tr>
 <td class="airline"> Ryanair </td>
 <td class="flight">FR2452</td>
 <td class="time">10:30</td>
@@ -854,13 +854,13 @@ Journey Planner </a></li>
 <td class="status"><strong> </strong></td>
 
 </tr>
-<tr>
+ <tr>
 <td class="airline"> Ryanair </td>
 <td class="flight">FR8145</td>
 <td class="time">14:25</td>
 <td class="origin">LONDON LUTON </td>
 
- <td class="status"><strong> </strong></td>
+<td class="status"><strong> </strong></td>
 
 </tr>
 <tr>
@@ -929,7 +929,7 @@ Journey Planner </a></li>
 <div class="tab-content1">
 <div role="tabpanel" class="tab-pane active" id="demo2-map" style="padding-bottom: 50px;">
 <ul class="list-inline" style="overflow:visible;">
- </ul>
+</ul>
 <div class="clearfix"></div>
 </div>
 </div>
@@ -1150,10 +1150,10 @@ $("#owl-route").owlCarousel({
 </tr>
 </thead>
 <tbody id="arrivals_data">
-<tr>
+ <tr>
 <td class="airline"> Ryanair
 
- </td>
+</td>
 <td class="flight">FR4151</td>
 <td class="time">18:35</td>
 <td class="origin">BARCELONA GIRONA</td>
@@ -1176,7 +1176,7 @@ $("#owl-route").owlCarousel({
 <td class="airline"> Ryanair
 
 </td>
-<td class="flight">FR2451</td>
+ <td class="flight">FR2451</td>
 <td class="time">10:05</td>
 <td class="origin">FARO</td>
 
@@ -1248,7 +1248,7 @@ $("#owl-route").owlCarousel({
 <thead>
 <tr>
 <th>Airline</th>
-<th>Flight</th>
+ <th>Flight</th>
 <th>Time</th>
 <th>Destination</th>
 <th>Remarks</th>
@@ -1281,7 +1281,7 @@ $("#owl-route").owlCarousel({
 <td class="airline"> Ryanair
 
 </td>
- <td class="flight">FR2452</td>
+<td class="flight">FR2452</td>
 <td class="time">10:30</td>
 <td class="origin">FARO </td>
 
@@ -1317,7 +1317,7 @@ $("#owl-route").owlCarousel({
 <td class="flight">EI912</td>
 <td class="time">13:00</td>
 <td class="origin">LONDON GATWICK </td>
-
+ 
 <td class="status"><strong> </strong></td>
 
 </tr>
@@ -1353,11 +1353,12 @@ $("#owl-route").owlCarousel({
 </div>
 
 </div>
- </div>
+</div>
 </div>
 </div>
 <div class="panel panel-default">
 <div class="panel-heading">
+
 <h4 class="panel-title panel-title-link">
 <a data-toggle="collapse" href="#collapse10" class="tab_10"> Destinations</a>
 </h4>
@@ -1431,7 +1432,7 @@ $("#owl-route").owlCarousel({
 <div id="owl-route" class="owl-carousel22">
 <div class="item" style="background-image:url(/uploads/content_pages_images/13-edinburg.jpg);">
 <div class="caption">
-<div class="box-cell">
+ <div class="box-cell">
 <h4>Featured Destination</h4>
 <h2>Edinburgh</h2>
 <p>Fly to beautiful Edinburgh twice weekly from September with Ryanair</p>
@@ -1894,6 +1895,6 @@ $("#owl-news_mob").owlCarousel({
 
             });
         </script>
-<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v652eace1692a40cfa3763df669d7439c1639079717194" integrity="sha512-Gi7xpJR8tSkrpF7aordPZQlW2DLtzUlZcumS8dMQjwDHEnw9I7ZLyiOj/6tZStRBGtGgN6ceN6cMH8z7etPGlw==" data-cf-beacon='{"rayId":"714aa5c6d8a17187","token":"5c57d97659e94e0085a1d41247fcad19","version":"2021.12.0","si":100}' crossorigin="anonymous"></script>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v652eace1692a40cfa3763df669d7439c1639079717194" integrity="sha512-Gi7xpJR8tSkrpF7aordPZQlW2DLtzUlZcumS8dMQjwDHEnw9I7ZLyiOj/6tZStRBGtGgN6ceN6cMH8z7etPGlw==" data-cf-beacon='{"rayId":"714afda9eac471b6","token":"5c57d97659e94e0085a1d41247fcad19","version":"2021.12.0","si":100}' crossorigin="anonymous"></script>
 </body>
 </html>
