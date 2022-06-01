@@ -119,7 +119,7 @@ fbq('track', 'PageView');
         $.ajax({
             url: "/clubSignUp/addClubWestUser", // Url to which the request is send
             type: "POST", // Type of request to be send, called as method
-            data: "club_email=" + emailAddress+'&YII_CSRF_TOKEN=TWdrdDFDQllwTGxXZzVtbGZ4MUliczZ4N0hZeTVPbGdRAI3uyDsHTEVsWqVIxTsGeKWg80q9LBsUclm-1gN1jA==', // Data sent to server, a set of key/value pairs (i.e. form fields and values)
+            data: "club_email=" + emailAddress+'&YII_CSRF_TOKEN=ZFRMeTY0Yjk3dXh2N0tRaUFPRW5JM0VDVnhhSkRPQjdor8oWMs3bzDLYkdVtZOgEcWnUDwlSz55EQPYhRJbLKw==', // Data sent to server, a set of key/value pairs (i.e. form fields and values)
             success: function (data)   // A function to be called if request succeeds
             {
                 $("#clubSubscribe").attr("disabled", false);
@@ -171,7 +171,7 @@ fbq('track', 'PageView');
         $.ajax({
             url: "/clubSignUp/addClubWestUser", // Url to which the request is send
             type: "POST", // Type of request to be send, called as method
-            data: "club_email=" + emailAddress+'&YII_CSRF_TOKEN=TWdrdDFDQllwTGxXZzVtbGZ4MUliczZ4N0hZeTVPbGdRAI3uyDsHTEVsWqVIxTsGeKWg80q9LBsUclm-1gN1jA==', // Data sent to server, a set of key/value pairs (i.e. form fields and values)
+            data: "club_email=" + emailAddress+'&YII_CSRF_TOKEN=ZFRMeTY0Yjk3dXh2N0tRaUFPRW5JM0VDVnhhSkRPQjdor8oWMs3bzDLYkdVtZOgEcWnUDwlSz55EQPYhRJbLKw==', // Data sent to server, a set of key/value pairs (i.e. form fields and values)
             success: function (data)   // A function to be called if request succeeds
             {
                
@@ -214,7 +214,7 @@ function redirectPage(url, tab_id) {
         $.ajax({
             type: "POST",
             url: "/site/getArrival",
-            data: 'YII_CSRF_TOKEN=TWdrdDFDQllwTGxXZzVtbGZ4MUliczZ4N0hZeTVPbGdRAI3uyDsHTEVsWqVIxTsGeKWg80q9LBsUclm-1gN1jA==',
+            data: 'YII_CSRF_TOKEN=ZFRMeTY0Yjk3dXh2N0tRaUFPRW5JM0VDVnhhSkRPQjdor8oWMs3bzDLYkdVtZOgEcWnUDwlSz55EQPYhRJbLKw==',
             success: function (data) {
                 //var result = $.parseJSON(data);
 
@@ -228,7 +228,7 @@ function redirectPage(url, tab_id) {
         $.ajax({
             type: "POST",
             url: "/site/getDeparture",
-            data: 'YII_CSRF_TOKEN=TWdrdDFDQllwTGxXZzVtbGZ4MUliczZ4N0hZeTVPbGdRAI3uyDsHTEVsWqVIxTsGeKWg80q9LBsUclm-1gN1jA==',
+            data: 'YII_CSRF_TOKEN=ZFRMeTY0Yjk3dXh2N0tRaUFPRW5JM0VDVnhhSkRPQjdor8oWMs3bzDLYkdVtZOgEcWnUDwlSz55EQPYhRJbLKw==',
             success: function (data) {
                 //var result = $.parseJSON(data);
                 $('#departure_data').html(data);
@@ -1934,6 +1934,6 @@ $("#owl-news_mob").owlCarousel({
 
             });
         </script>
-<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v652eace1692a40cfa3763df669d7439c1639079717194" integrity="sha512-Gi7xpJR8tSkrpF7aordPZQlW2DLtzUlZcumS8dMQjwDHEnw9I7ZLyiOj/6tZStRBGtGgN6ceN6cMH8z7etPGlw==" data-cf-beacon='{"rayId":"714370156c0871bc","token":"5c57d97659e94e0085a1d41247fcad19","version":"2021.12.0","si":100}' crossorigin="anonymous"></script>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v652eace1692a40cfa3763df669d7439c1639079717194" integrity="sha512-Gi7xpJR8tSkrpF7aordPZQlW2DLtzUlZcumS8dMQjwDHEnw9I7ZLyiOj/6tZStRBGtGgN6ceN6cMH8z7etPGlw==" data-cf-beacon='{"rayId":"7143c7f40b257708","token":"5c57d97659e94e0085a1d41247fcad19","version":"2021.12.0","si":100}' crossorigin="anonymous"></script>
 </body>
 </html>
