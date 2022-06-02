@@ -119,7 +119,7 @@ fbq('track', 'PageView');
         $.ajax({
             url: "/clubSignUp/addClubWestUser", // Url to which the request is send
             type: "POST", // Type of request to be send, called as method
-            data: "club_email=" + emailAddress+'&YII_CSRF_TOKEN=M2o0UlprakxWWHdKQlBMeXBuSVVKdTY0djU1cEk4MkrghbDTnHoax3lhEjJepOOrWNMP8_uv3vxTOiEry4ityA==', // Data sent to server, a set of key/value pairs (i.e. form fields and values)
+            data: "club_email=" + emailAddress+'&YII_CSRF_TOKEN=M0cwMFQ4ZktuNlVNMjhvbngzfno1Y2FjcmthNGpacUIpA4jh4V75mE77SrUL91JafXXmUopuqXM1dIsYbSdHaA==', // Data sent to server, a set of key/value pairs (i.e. form fields and values)
             success: function (data)   // A function to be called if request succeeds
             {
                 $("#clubSubscribe").attr("disabled", false);
@@ -171,7 +171,7 @@ fbq('track', 'PageView');
         $.ajax({
             url: "/clubSignUp/addClubWestUser", // Url to which the request is send
             type: "POST", // Type of request to be send, called as method
-            data: "club_email=" + emailAddress+'&YII_CSRF_TOKEN=M2o0UlprakxWWHdKQlBMeXBuSVVKdTY0djU1cEk4MkrghbDTnHoax3lhEjJepOOrWNMP8_uv3vxTOiEry4ityA==', // Data sent to server, a set of key/value pairs (i.e. form fields and values)
+            data: "club_email=" + emailAddress+'&YII_CSRF_TOKEN=M0cwMFQ4ZktuNlVNMjhvbngzfno1Y2FjcmthNGpacUIpA4jh4V75mE77SrUL91JafXXmUopuqXM1dIsYbSdHaA==', // Data sent to server, a set of key/value pairs (i.e. form fields and values)
             success: function (data)   // A function to be called if request succeeds
             {
                
@@ -214,7 +214,7 @@ function redirectPage(url, tab_id) {
         $.ajax({
             type: "POST",
             url: "/site/getArrival",
-            data: 'YII_CSRF_TOKEN=M2o0UlprakxWWHdKQlBMeXBuSVVKdTY0djU1cEk4MkrghbDTnHoax3lhEjJepOOrWNMP8_uv3vxTOiEry4ityA==',
+            data: 'YII_CSRF_TOKEN=M0cwMFQ4ZktuNlVNMjhvbngzfno1Y2FjcmthNGpacUIpA4jh4V75mE77SrUL91JafXXmUopuqXM1dIsYbSdHaA==',
             success: function (data) {
                 //var result = $.parseJSON(data);
 
@@ -228,7 +228,7 @@ function redirectPage(url, tab_id) {
         $.ajax({
             type: "POST",
             url: "/site/getDeparture",
-            data: 'YII_CSRF_TOKEN=M2o0UlprakxWWHdKQlBMeXBuSVVKdTY0djU1cEk4MkrghbDTnHoax3lhEjJepOOrWNMP8_uv3vxTOiEry4ityA==',
+            data: 'YII_CSRF_TOKEN=M0cwMFQ4ZktuNlVNMjhvbngzfno1Y2FjcmthNGpacUIpA4jh4V75mE77SrUL91JafXXmUopuqXM1dIsYbSdHaA==',
             success: function (data) {
                 //var result = $.parseJSON(data);
                 $('#departure_data').html(data);
@@ -793,19 +793,10 @@ Journey Planner </a></li>
 <tbody id="departure_data">
 <tr>
 <td class="airline"> Ryanair </td>
-<td class="flight">FR4152</td>
-<td class="time">19:00</td>
-<td class="origin">BARCELONA GIRONA </td>
-
-<td class="status">Departed 1905<strong> </strong></td>
-
-</tr>
-<tr>
-<td class="airline"> Ryanair </td>
 <td class="flight">FR806</td>
 <td class="time">09:35</td>
 <td class="origin">LONDON STANSTED </td>
- 
+
 <td class="status"><strong> </strong></td>
 
 </tr>
@@ -815,7 +806,7 @@ Journey Planner </a></li>
 <td class="time">10:30</td>
 <td class="origin">FARO </td>
 
-<td class="status"><strong> </strong></td>
+ <td class="status"><strong> </strong></td>
 
 </tr>
 <tr>
@@ -853,10 +844,10 @@ Journey Planner </a></li>
 
 <td class="status"><strong> </strong></td>
 
- </tr>
+</tr>
 <tr>
 <td class="airline"> Ryanair </td>
-<td class="flight">FR8547</td>
+ <td class="flight">FR8547</td>
 <td class="time">18:05</td>
 <td class="origin">COLN/BONN </td>
 
@@ -1147,9 +1138,9 @@ $("#owl-route").owlCarousel({
 </td>
 <td class="flight">FR805</td>
 <td class="time">08:55</td>
- <td class="origin">LONDON STANSTED</td>
+<td class="origin">LONDON STANSTED</td>
 
-<td class="status"><strong> </strong></td>
+ <td class="status"><strong> </strong></td>
 
 </tr>
 <tr>
@@ -1216,7 +1207,7 @@ $("#owl-route").owlCarousel({
 <td class="origin">COLN/BONN</td>
 
 <td class="status"><strong> </strong></td>
-
+ 
 </tr>
 </tbody>
 </table>
@@ -1225,7 +1216,7 @@ $("#owl-route").owlCarousel({
 <div id="tab-small-2" class="tab-pane fade">
 <div class="myTable table-responsive">
 <table class="table myrestable">
- <thead>
+<thead>
 <tr>
 <th>Airline</th>
 <th>Flight</th>
@@ -1235,17 +1226,6 @@ $("#owl-route").owlCarousel({
 </tr>
 </thead>
 <tbody id="departure_data">
-<tr>
-<td class="airline"> Ryanair
-
-</td>
-<td class="flight">FR4152</td>
-<td class="time">19:00</td>
-<td class="origin">BARCELONA GIRONA </td>
-
-<td class="status">Departed 1905<strong> </strong></td>
-
-</tr>
 <tr>
 <td class="airline"> Ryanair
 
@@ -1261,7 +1241,7 @@ $("#owl-route").owlCarousel({
 <td class="airline"> Ryanair
 
 </td>
- <td class="flight">FR2452</td>
+<td class="flight">FR2452</td>
 <td class="time">10:30</td>
 <td class="origin">FARO </td>
 
@@ -1269,7 +1249,7 @@ $("#owl-route").owlCarousel({
 
 </tr>
 <tr>
-<td class="airline"> Ryanair
+<td class="airline">  Ryanair
 
 </td>
 <td class="flight">FR8143</td>
@@ -1295,7 +1275,7 @@ $("#owl-route").owlCarousel({
 
 </td>
 <td class="flight">EI912</td>
- <td class="time">13:00</td>
+<td class="time">13:00</td>
 <td class="origin">LONDON GATWICK </td>
 
 <td class="status"><strong> </strong></td>
@@ -1303,7 +1283,7 @@ $("#owl-route").owlCarousel({
 </tr>
 <tr>
 <td class="airline"> Ryanair
-
+ 
 </td>
 <td class="flight">FR8145</td>
 <td class="time">14:25</td>
@@ -1333,7 +1313,7 @@ $("#owl-route").owlCarousel({
 </div>
 
 </div>
- </div>
+</div>
 </div>
 </div>
 <div class="panel panel-default">
@@ -1408,7 +1388,7 @@ $("#owl-route").owlCarousel({
 </style>
 <div class="container-fluid">
 <div class="row">
- <div id="owl-route" class="owl-carousel22">
+<div id="owl-route" class="owl-carousel22">
 <div class="item" style="background-image:url(/uploads/content_pages_images/13-edinburg.jpg);">
 <div class="caption">
 <div class="box-cell">
@@ -1421,7 +1401,7 @@ $("#owl-route").owlCarousel({
 </div>
 <div class="item" style="background-image:url(/uploads/content_pages_images/15-manchester.jpg);">
 <div class="caption">
-<div class="box-cell">
+ <div class="box-cell">
 <h4>Featured Destination</h4>
 <h2>Manchester</h2>
 <p>Fly to Manchester twice weekly from September with Ryanair</p>
@@ -1474,7 +1454,7 @@ $("#owl-route").owlCarousel({
 <img src="/uploads/content_pages_images/15-manchester.jpg" class="img-responsive" alt="Image">
 </figure>
 <figcaption>
-<h4>Manchester</h4>
+ <h4>Manchester</h4>
 <p>From the world&rsquo;s first industrial city to a multicultural urban paradise, a Manchester visit is rich in cultural highlights, with the Transport, People&rsquo;s History and Science &amp; Industry museums offering a great insight into the area&rsquo;s history. Now just an hour from the West of&nbsp;Ireland with a new direct flight to Manchester by Ryanair from Ireland West Airport</p>
 <p>A city steeped in sporting glory, take a tour around England&rsquo;s National Football Museum or the world famous football stadium, Old Trafford. Food lovers will love the vast selection on offer, and no trip to Manchester would be complete without a trip to Rusholme&rsquo;s curry mile, which features around 70 different Indian restaurants. On the cusp of the Cheshire countryside, start making your plans to visit Manchester and enjoy the fruits of the north-west&rsquo;s premier city first-hand.</p>
 <p>You can now fly direct to Manchester twice weekly from September 3rd 2021 on Mondays and Fridays thanks to a new flight with Ryanair from Ireland West Airport. Book now on <a href="http://ryanair.com" target="_blank">ryanair.com</a></p>
@@ -1604,7 +1584,7 @@ $('#menu4').attr('class','tab-pane fade active in');
 </div>
 <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
 <ul>
-<li><a href="/contact_us">Contact Us</a></li>
+ <li><a href="/contact_us">Contact Us</a></li>
 <li><a href="/newsletter">Email Newsletter</a></li>
 <li><a href="/flight_information/destination">Destinations and Airlines</a></li>
 <li><a href="/airline_contact_details">Partner Contact Details</a></li>
@@ -1874,6 +1854,6 @@ $("#owl-news_mob").owlCarousel({
 
             });
         </script>
-<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v652eace1692a40cfa3763df669d7439c1639079717194" integrity="sha512-Gi7xpJR8tSkrpF7aordPZQlW2DLtzUlZcumS8dMQjwDHEnw9I7ZLyiOj/6tZStRBGtGgN6ceN6cMH8z7etPGlw==" data-cf-beacon='{"rayId":"714cb51c7951770d","token":"5c57d97659e94e0085a1d41247fcad19","version":"2021.12.0","si":100}' crossorigin="anonymous"></script>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v652eace1692a40cfa3763df669d7439c1639079717194" integrity="sha512-Gi7xpJR8tSkrpF7aordPZQlW2DLtzUlZcumS8dMQjwDHEnw9I7ZLyiOj/6tZStRBGtGgN6ceN6cMH8z7etPGlw==" data-cf-beacon='{"rayId":"714d0d040cb976d7","token":"5c57d97659e94e0085a1d41247fcad19","version":"2021.12.0","si":100}' crossorigin="anonymous"></script>
 </body>
 </html>
