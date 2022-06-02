@@ -119,7 +119,7 @@ fbq('track', 'PageView');
         $.ajax({
             url: "/clubSignUp/addClubWestUser", // Url to which the request is send
             type: "POST", // Type of request to be send, called as method
-            data: "club_email=" + emailAddress+'&YII_CSRF_TOKEN=dWZPb1RaZnFxYUpEalN-ZE1JdkZyU0xXZUk2QmUycDcxOBUv0oMeSgLSBOmpwwlUTXN-QruWVRFJRSOBQvdJEQ==', // Data sent to server, a set of key/value pairs (i.e. form fields and values)
+            data: "club_email=" + emailAddress+'&YII_CSRF_TOKEN=MEFobG5mMjBlZGZZRjlpTGdMNTc5Y0pCXzFjamJCNU3ZPikBDg_kw7MUNMsiqT1gSHmjM2ylroXFdm0P8WB3zA==', // Data sent to server, a set of key/value pairs (i.e. form fields and values)
             success: function (data)   // A function to be called if request succeeds
             {
                 $("#clubSubscribe").attr("disabled", false);
@@ -171,7 +171,7 @@ fbq('track', 'PageView');
         $.ajax({
             url: "/clubSignUp/addClubWestUser", // Url to which the request is send
             type: "POST", // Type of request to be send, called as method
-            data: "club_email=" + emailAddress+'&YII_CSRF_TOKEN=dWZPb1RaZnFxYUpEalN-ZE1JdkZyU0xXZUk2QmUycDcxOBUv0oMeSgLSBOmpwwlUTXN-QruWVRFJRSOBQvdJEQ==', // Data sent to server, a set of key/value pairs (i.e. form fields and values)
+            data: "club_email=" + emailAddress+'&YII_CSRF_TOKEN=MEFobG5mMjBlZGZZRjlpTGdMNTc5Y0pCXzFjamJCNU3ZPikBDg_kw7MUNMsiqT1gSHmjM2ylroXFdm0P8WB3zA==', // Data sent to server, a set of key/value pairs (i.e. form fields and values)
             success: function (data)   // A function to be called if request succeeds
             {
                
@@ -214,7 +214,7 @@ function redirectPage(url, tab_id) {
         $.ajax({
             type: "POST",
             url: "/site/getArrival",
-            data: 'YII_CSRF_TOKEN=dWZPb1RaZnFxYUpEalN-ZE1JdkZyU0xXZUk2QmUycDcxOBUv0oMeSgLSBOmpwwlUTXN-QruWVRFJRSOBQvdJEQ==',
+            data: 'YII_CSRF_TOKEN=MEFobG5mMjBlZGZZRjlpTGdMNTc5Y0pCXzFjamJCNU3ZPikBDg_kw7MUNMsiqT1gSHmjM2ylroXFdm0P8WB3zA==',
             success: function (data) {
                 //var result = $.parseJSON(data);
 
@@ -228,7 +228,7 @@ function redirectPage(url, tab_id) {
         $.ajax({
             type: "POST",
             url: "/site/getDeparture",
-            data: 'YII_CSRF_TOKEN=dWZPb1RaZnFxYUpEalN-ZE1JdkZyU0xXZUk2QmUycDcxOBUv0oMeSgLSBOmpwwlUTXN-QruWVRFJRSOBQvdJEQ==',
+            data: 'YII_CSRF_TOKEN=MEFobG5mMjBlZGZZRjlpTGdMNTc5Y0pCXzFjamJCNU3ZPikBDg_kw7MUNMsiqT1gSHmjM2ylroXFdm0P8WB3zA==',
             success: function (data) {
                 //var result = $.parseJSON(data);
                 $('#departure_data').html(data);
@@ -1451,7 +1451,7 @@ $("#owl-route").owlCarousel({
 </div>
 <div class="modal-body">
 <figure>
- <img src="/uploads/content_pages_images/15-manchester.jpg" class="img-responsive" alt="Image">
+<img src="/uploads/content_pages_images/15-manchester.jpg" class="img-responsive" alt="Image">
 </figure>
 <figcaption>
 <h4>Manchester</h4>
@@ -1854,6 +1854,6 @@ $("#owl-news_mob").owlCarousel({
 
             });
         </script>
-<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v652eace1692a40cfa3763df669d7439c1639079717194" integrity="sha512-Gi7xpJR8tSkrpF7aordPZQlW2DLtzUlZcumS8dMQjwDHEnw9I7ZLyiOj/6tZStRBGtGgN6ceN6cMH8z7etPGlw==" data-cf-beacon='{"rayId":"714d64e39b727535","token":"5c57d97659e94e0085a1d41247fcad19","version":"2021.12.0","si":100}' crossorigin="anonymous"></script>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v652eace1692a40cfa3763df669d7439c1639079717194" integrity="sha512-Gi7xpJR8tSkrpF7aordPZQlW2DLtzUlZcumS8dMQjwDHEnw9I7ZLyiOj/6tZStRBGtGgN6ceN6cMH8z7etPGlw==" data-cf-beacon='{"rayId":"714dbcccf9dc771f","token":"5c57d97659e94e0085a1d41247fcad19","version":"2021.12.0","si":100}' crossorigin="anonymous"></script>
 </body>
 </html>
