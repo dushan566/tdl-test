@@ -119,7 +119,7 @@ fbq('track', 'PageView');
         $.ajax({
             url: "/clubSignUp/addClubWestUser", // Url to which the request is send
             type: "POST", // Type of request to be send, called as method
-            data: "club_email=" + emailAddress+'&YII_CSRF_TOKEN=QVNUUzFHWGJzfmJYQnhINW1-N3R3U1BGcWNqSnc4bUpt5Yfy_y64PV-7xe_copEkNrMi0TXy5_Q94AosNYx4Wg==', // Data sent to server, a set of key/value pairs (i.e. form fields and values)
+            data: "club_email=" + emailAddress+'&YII_CSRF_TOKEN=VVpXQ1Nqb2hZWEZEY3l3a3J1aENaR2lRTU1-TWI4WGSlAg-vLn_wfK8Pl4rz78xJn_ggDftiQTPMfz4RRiISOg==', // Data sent to server, a set of key/value pairs (i.e. form fields and values)
             success: function (data)   // A function to be called if request succeeds
             {
                 $("#clubSubscribe").attr("disabled", false);
@@ -171,7 +171,7 @@ fbq('track', 'PageView');
         $.ajax({
             url: "/clubSignUp/addClubWestUser", // Url to which the request is send
             type: "POST", // Type of request to be send, called as method
-            data: "club_email=" + emailAddress+'&YII_CSRF_TOKEN=QVNUUzFHWGJzfmJYQnhINW1-N3R3U1BGcWNqSnc4bUpt5Yfy_y64PV-7xe_copEkNrMi0TXy5_Q94AosNYx4Wg==', // Data sent to server, a set of key/value pairs (i.e. form fields and values)
+            data: "club_email=" + emailAddress+'&YII_CSRF_TOKEN=VVpXQ1Nqb2hZWEZEY3l3a3J1aENaR2lRTU1-TWI4WGSlAg-vLn_wfK8Pl4rz78xJn_ggDftiQTPMfz4RRiISOg==', // Data sent to server, a set of key/value pairs (i.e. form fields and values)
             success: function (data)   // A function to be called if request succeeds
             {
                
@@ -214,7 +214,7 @@ function redirectPage(url, tab_id) {
         $.ajax({
             type: "POST",
             url: "/site/getArrival",
-            data: 'YII_CSRF_TOKEN=QVNUUzFHWGJzfmJYQnhINW1-N3R3U1BGcWNqSnc4bUpt5Yfy_y64PV-7xe_copEkNrMi0TXy5_Q94AosNYx4Wg==',
+            data: 'YII_CSRF_TOKEN=VVpXQ1Nqb2hZWEZEY3l3a3J1aENaR2lRTU1-TWI4WGSlAg-vLn_wfK8Pl4rz78xJn_ggDftiQTPMfz4RRiISOg==',
             success: function (data) {
                 //var result = $.parseJSON(data);
 
@@ -228,7 +228,7 @@ function redirectPage(url, tab_id) {
         $.ajax({
             type: "POST",
             url: "/site/getDeparture",
-            data: 'YII_CSRF_TOKEN=QVNUUzFHWGJzfmJYQnhINW1-N3R3U1BGcWNqSnc4bUpt5Yfy_y64PV-7xe_copEkNrMi0TXy5_Q94AosNYx4Wg==',
+            data: 'YII_CSRF_TOKEN=VVpXQ1Nqb2hZWEZEY3l3a3J1aENaR2lRTU1-TWI4WGSlAg-vLn_wfK8Pl4rz78xJn_ggDftiQTPMfz4RRiISOg==',
             success: function (data) {
                 //var result = $.parseJSON(data);
                 $('#departure_data').html(data);
@@ -552,7 +552,7 @@ Destinations</a></li>
 <li class=' list_9'><a class="touchhandleIOS" href="https://irelandwestairport.com/flight_information/new-routes">
 <div class="icon"><img src="/uploads/icons/icon_55eefdec274265.png" alt="Icon"></div>
 New Routes</a></li>
- 
+
 
 </ul>
 </li>
@@ -580,7 +580,7 @@ PRM And Blue Badge Parking</a></li>
 <div class="icon"><img src="/uploads/icons/icon_55eefe0862decd.png" alt="Icon"></div>
 Terms and Conditions</a></li>
 
- 
+
 </ul>
 </li>
 <li class="dropdown mega-dropdown">
@@ -593,7 +593,7 @@ At the Airport<span class="caret"></span>
 Airport Shopping</a></li>
 <li class=' list_25'><a class="touchhandleIOS" href="https://www.irelandwestairport.com/at_the_airport/restaurants-and-bars">
 <div class="icon"><img src="/uploads/icons/icon_55eefe0faed44d.png" alt="Icon"></div>
-Restaurants And Bars</a></li>
+ Restaurants And Bars</a></li>
 <li class=' list_26'><a class="touchhandleIOS" href="https://www.irelandwestairport.com/at_the_airport/facilities-and-services">
 <div class="icon"><img src="/uploads/icons/icon_55eefe17e8d6d4.png" alt="Icon"></div>
 Facilities And Services</a></li>
@@ -716,7 +716,7 @@ Journey Planner </a></li>
 <td class="flight">FR805</td>
 <td class="time">08:55</td>
 <td class="origin">LONDON STANSTED</td>
-
+ 
 <td class="status">Landed 0849<strong> </strong></td>
 
 </tr>
@@ -726,7 +726,7 @@ Journey Planner </a></li>
 <td class="time">10:05</td>
 <td class="origin">FARO</td>
 
-<td class="status">Expected At 0940<strong> </strong></td>
+<td class="status">Landed 0948<strong> </strong></td>
 
 </tr>
 <tr>
@@ -735,7 +735,7 @@ Journey Planner </a></li>
 <td class="time">11:20</td>
 <td class="origin">LONDON LUTON</td>
 
- <td class="status"><strong> </strong></td>
+<td class="status"><strong> </strong></td>
 
 </tr>
 <tr>
@@ -757,7 +757,7 @@ Journey Planner </a></li>
 
 </tr>
 <tr>
-<td class="airline"> Ryanair </td>
+ <td class="airline"> Ryanair </td>
 <td class="flight">FR8144</td>
 <td class="time">13:45</td>
 <td class="origin">LONDON LUTON</td>
@@ -797,7 +797,7 @@ Journey Planner </a></li>
 <td class="time">09:35</td>
 <td class="origin">LONDON STANSTED </td>
 
-<td class="status">Go To Boarding Gate 2<strong> </strong></td>
+<td class="status">Departed 0942<strong> </strong></td>
 
 </tr>
 <tr>
@@ -805,8 +805,8 @@ Journey Planner </a></li>
 <td class="flight">FR2452</td>
 <td class="time">10:30</td>
 <td class="origin">FARO </td>
-
-<td class="status">Check-In Desk,4,5 , Go To Departure Lounge<strong> </strong></td>
+ 
+<td class="status">Go To Boarding Gate 2<strong> </strong></td>
 
 </tr>
 <tr>
@@ -815,7 +815,7 @@ Journey Planner </a></li>
 <td class="time">12:00</td>
 <td class="origin">LONDON LUTON </td>
 
-<td class="status"><strong> </strong></td>
+<td class="status">Check In Desk 4,5<strong> </strong></td>
 
 </tr>
 <tr>
@@ -824,7 +824,7 @@ Journey Planner </a></li>
 <td class="time">12:15</td>
 <td class="origin">EDINBURGH </td>
 
- <td class="status"><strong> </strong></td>
+<td class="status">Check In Desk 4,5<strong> </strong></td>
 
 </tr>
 <tr>
@@ -846,7 +846,7 @@ Journey Planner </a></li>
 
 </tr>
 <tr>
-<td class="airline"> Ryanair </td>
+ <td class="airline"> Ryanair </td>
 <td class="flight">FR8547</td>
 <td class="time">18:05</td>
 <td class="origin">COLN/BONN </td>
@@ -961,7 +961,7 @@ Journey Planner </a></li>
 <div class="item" style="background-image:url(/uploads/content_pages_images/7-mallorca-port-de-soller-panorama.jpg);">
 <div class="caption">
 <div class="box-cell">
- <h4>Featured Destination</h4>
+<h4>Featured Destination</h4>
 <h2>Palma Majorca</h2>
 <p>New weekly service to Palma Majorca with Ryanair</p>
 <a data-toggle="modal" data-target="#myModal-info7" class="btn-more">More Information</a>
@@ -1027,7 +1027,7 @@ Journey Planner </a></li>
 <p>Majorca is home to the popular resorts of Santa Ponsa, Alcudia and Palma Nova, whilst also boasting the impressive capital of Palma.&nbsp; Majorca has been always been a firm favourite and now it will be even easier for holidaymakers in the West of Ireland to get there from&nbsp;their doorstep. It is a superb destination for families, couples and singles alike.</p>
 <p>With weekly flights with Ryanair, holidaymakers throughout the West of Ireland now have the opportunity to discover the most well-known Balearic isle direct from their local airport. Book flights to Majorca from Ireland West Airport&nbsp;on <a href="http://www.ryanair.com" target="_blank">www.ryanair.com</a></p>
 </figcaption>
-</div>
+ </div>
 </div>
 </div>
 </div>
@@ -1115,7 +1115,7 @@ $("#owl-route").owlCarousel({
 <li class="active"><a href="#tab-small-1" data-toggle="tab">Arrivals</a></li>
 <li><a href="#tab-small-2" data-toggle="tab">Departures</a></li>
 </ul>
- </div>
+</div>
 </div>
 <div class="col-md-9">
 <div class="tab-content">
@@ -1140,7 +1140,7 @@ $("#owl-route").owlCarousel({
 <td class="time">08:55</td>
 <td class="origin">LONDON STANSTED</td>
 
-<td class="status">Landed 0849<strong> </strong></td>
+ <td class="status">Landed 0849<strong> </strong></td>
 
 </tr>
 <tr>
@@ -1151,11 +1151,11 @@ $("#owl-route").owlCarousel({
 <td class="time">10:05</td>
 <td class="origin">FARO</td>
 
-<td class="status">Expected At 0940<strong> </strong></td>
+<td class="status">Landed 0948<strong> </strong></td>
 
 </tr>
 <tr>
-<td class="airline">  Ryanair
+<td class="airline"> Ryanair
 
 </td>
 <td class="flight">FR8142</td>
@@ -1173,10 +1173,10 @@ $("#owl-route").owlCarousel({
 <td class="time">11:50</td>
 <td class="origin">EDINBURGH</td>
 
-<td class="status"><strong> </strong></td>
+ <td class="status"><strong> </strong></td>
 
 </tr>
- <tr>
+<tr>
 <td class="airline"> Aer Lingus
 
 </td>
@@ -1210,7 +1210,7 @@ $("#owl-route").owlCarousel({
 
 </tr>
 </tbody>
- </table>
+</table>
 </div>
 </div>
 <div id="tab-small-2" class="tab-pane fade">
@@ -1220,7 +1220,7 @@ $("#owl-route").owlCarousel({
 <tr>
 <th>Airline</th>
 <th>Flight</th>
-<th>Time</th>
+ <th>Time</th>
 <th>Destination</th>
 <th>Remarks</th>
 </tr>
@@ -1234,7 +1234,7 @@ $("#owl-route").owlCarousel({
 <td class="time">09:35</td>
 <td class="origin">LONDON STANSTED </td>
 
-<td class="status">Go To Boarding Gate 2<strong> </strong></td>
+<td class="status">Departed 0942<strong> </strong></td>
 
 </tr>
 <tr>
@@ -1245,18 +1245,18 @@ $("#owl-route").owlCarousel({
 <td class="time">10:30</td>
 <td class="origin">FARO </td>
 
-<td class="status">Check-In Desk,4,5 , Go To Departure Lounge<strong> </strong></td>
+<td class="status">Go To Boarding Gate 2<strong> </strong></td>
 
 </tr>
 <tr>
-<td class="airline">  Ryanair
+<td class="airline"> Ryanair
 
 </td>
 <td class="flight">FR8143</td>
 <td class="time">12:00</td>
 <td class="origin">LONDON LUTON </td>
 
-<td class="status"><strong> </strong></td>
+<td class="status">Check In Desk 4,5<strong> </strong></td>
 
 </tr>
 <tr>
@@ -1267,7 +1267,7 @@ $("#owl-route").owlCarousel({
 <td class="time">12:15</td>
 <td class="origin">EDINBURGH </td>
 
-<td class="status"><strong> </strong></td>
+<td class="status">Check In Desk 4,5<strong> </strong></td>
 
 </tr>
 <tr>
@@ -1282,14 +1282,14 @@ $("#owl-route").owlCarousel({
 
 </tr>
 <tr>
-<td class="airline">  Ryanair
+<td class="airline"> Ryanair
 
 </td>
 <td class="flight">FR8145</td>
 <td class="time">14:25</td>
 <td class="origin">LONDON LUTON </td>
 
-<td class="status"><strong> </strong></td>
+ <td class="status"><strong> </strong></td>
 
 </tr>
 <tr>
@@ -1324,7 +1324,7 @@ $("#owl-route").owlCarousel({
 </div>
 <div id="collapse10" class="panel-collapse collapse ">
 <div class="panel-body" id='mobile_map'>
- 
+
 <style>
     .map .list-inline .destination_map img{   width: auto;}
     
@@ -1339,7 +1339,7 @@ $("#owl-route").owlCarousel({
 <div class="col-sm-12 map">
 <div class="col-sm-12">
 <div class="title">
-<h1>Where can I fly?</h1>
+ <h1>Where can I fly?</h1>
 <p>Check out the destinations from Ireland West Airport</p>
 </div>
 </div>
@@ -1400,7 +1400,7 @@ $("#owl-route").owlCarousel({
 </div>
 </div>
 <div class="item" style="background-image:url(/uploads/content_pages_images/15-manchester.jpg);">
- <div class="caption">
+<div class="caption">
 <div class="box-cell">
 <h4>Featured Destination</h4>
 <h2>Manchester</h2>
@@ -1410,7 +1410,7 @@ $("#owl-route").owlCarousel({
 </div>
 </div>
 <div class="item" style="background-image:url(/uploads/content_pages_images/7-mallorca-port-de-soller-panorama.jpg);">
-<div class="caption">
+ <div class="caption">
 <div class="box-cell">
 <h4>Featured Destination</h4>
 <h2>Palma Majorca</h2>
@@ -1453,7 +1453,7 @@ $("#owl-route").owlCarousel({
 <figure>
 <img src="/uploads/content_pages_images/15-manchester.jpg" class="img-responsive" alt="Image">
 </figure>
- <figcaption>
+<figcaption>
 <h4>Manchester</h4>
 <p>From the world&rsquo;s first industrial city to a multicultural urban paradise, a Manchester visit is rich in cultural highlights, with the Transport, People&rsquo;s History and Science &amp; Industry museums offering a great insight into the area&rsquo;s history. Now just an hour from the West of&nbsp;Ireland with a new direct flight to Manchester by Ryanair from Ireland West Airport</p>
 <p>A city steeped in sporting glory, take a tour around England&rsquo;s National Football Museum or the world famous football stadium, Old Trafford. Food lovers will love the vast selection on offer, and no trip to Manchester would be complete without a trip to Rusholme&rsquo;s curry mile, which features around 70 different Indian restaurants. On the cusp of the Cheshire countryside, start making your plans to visit Manchester and enjoy the fruits of the north-west&rsquo;s premier city first-hand.</p>
@@ -1474,7 +1474,7 @@ $("#owl-route").owlCarousel({
 <img src="/uploads/content_pages_images/7-mallorca-port-de-soller-panorama.jpg" class="img-responsive" alt="Image">
 </figure>
 <figcaption>
-<h4>Palma Majorca</h4>
+ <h4>Palma Majorca</h4>
 <p>Majorca is home to the popular resorts of Santa Ponsa, Alcudia and Palma Nova, whilst also boasting the impressive capital of Palma.&nbsp; Majorca has been always been a firm favourite and now it will be even easier for holidaymakers in the West of Ireland to get there from&nbsp;their doorstep. It is a superb destination for families, couples and singles alike.</p>
 <p>With weekly flights with Ryanair, holidaymakers throughout the West of Ireland now have the opportunity to discover the most well-known Balearic isle direct from their local airport. Book flights to Majorca from Ireland West Airport&nbsp;on <a href="http://www.ryanair.com" target="_blank">www.ryanair.com</a></p>
 </figcaption>
@@ -1854,6 +1854,6 @@ $("#owl-news_mob").owlCarousel({
 
             });
         </script>
-<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v652eace1692a40cfa3763df669d7439c1639079717194" integrity="sha512-Gi7xpJR8tSkrpF7aordPZQlW2DLtzUlZcumS8dMQjwDHEnw9I7ZLyiOj/6tZStRBGtGgN6ceN6cMH8z7etPGlw==" data-cf-beacon='{"rayId":"714ec479b9b95476","token":"5c57d97659e94e0085a1d41247fcad19","version":"2021.12.0","si":100}' crossorigin="anonymous"></script>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v652eace1692a40cfa3763df669d7439c1639079717194" integrity="sha512-Gi7xpJR8tSkrpF7aordPZQlW2DLtzUlZcumS8dMQjwDHEnw9I7ZLyiOj/6tZStRBGtGgN6ceN6cMH8z7etPGlw==" data-cf-beacon='{"rayId":"714f1c571b207562","token":"5c57d97659e94e0085a1d41247fcad19","version":"2021.12.0","si":100}' crossorigin="anonymous"></script>
 </body>
 </html>
